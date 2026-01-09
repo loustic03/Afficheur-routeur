@@ -1,0 +1,15 @@
+{
+  "name": "Tactile afficheur routeur",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "version-merge-V4.1.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
