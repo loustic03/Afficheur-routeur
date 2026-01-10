@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Firmware ESP - Updates</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+  h1 { text-align: center; }
+  ul { list-style-type: none; padding: 0; }
+  li { margin: 10px 0; }
+  a { text-decoration: none; color: #007bff; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1>Firmware ESP - Téléchargement</h1>
+<p>Choisissez la version du firmware :</p>
+<ul id="firmware-list"></ul>
+
+<script>
+fetch('updates/updates.json')
+  .then(r => r.json())
+  .then(data => {
+    const ul = document.getElementById('firmware-list');
+    data.forEach(f => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = `updates/${f.file}`;
+      a.download = f.file;
+      a.textContent = `${f.version} (${f.file})`;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+  })
+  .catch(err => console.error(err));
+
+</script>
+
+</body>
+</html>
