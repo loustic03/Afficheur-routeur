@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <title>Tactile Afficheur routeur - Flash ESP32</title>
@@ -13,7 +13,6 @@
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
                  Roboto, Ubuntu, sans-serif;
     padding: 20px;
-    line-height: 1.5;
     background-color: #f8f8f8;
     color: #333;
   }
@@ -25,7 +24,7 @@
   .flash-container {
     max-width: 520px;
     margin: 30px auto;
-    padding: 22px;
+    padding: 24px;
     background: #fff;
     border-radius: 14px;
     box-shadow: 0 0 12px rgba(0,0,0,0.1);
@@ -34,27 +33,29 @@
 
   .info {
     font-size: 0.95rem;
-    margin: 12px 0 18px;
+    margin: 14px 0 20px;
     color: #555;
   }
 
-  /* 🔴 CORRECTION IMPORTANTE */
-  esp-web-install-button {
-    display: block;
+  /* CONTENEUR FLEX QUI FORCE LE CENTRAGE */
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    margin: 12px 0;
   }
 
   .btn {
-    display: block;
     width: 100%;
+    max-width: 100%;
     padding: 12px 20px;
     font-size: 1rem;
-    cursor: pointer;
     border-radius: 10px;
     border: none;
-    margin: 10px auto;
+    cursor: pointer;
     text-decoration: none;
     color: #fff;
+    text-align: center;
   }
 
   .btn-primary {
@@ -74,28 +75,36 @@
 </head>
 
 <body>
+
 <div class="flash-container">
   <h1>Tactile Afficheur routeur</h1>
-  <h2>Flasher votre ESP32</h2>
+  <h2>Installation ESP32</h2>
 
   <p class="info">
-    Branchez votre ESP32, puis cliquez sur <strong>Installer le firmware</strong>.<br>
-    Un guide détaillé est disponible si besoin.
+    Branchez votre ESP32 puis cliquez sur <strong>Installer le firmware</strong>.<br>
+    Un guide PDF est disponible si besoin.
   </p>
 
-  <!-- Bouton installation firmware -->
-  <esp-web-install-button
-    manifest="./manifest.json"
-    erase-flash>
-    <button class="btn btn-primary">Installer le firmware</button>
-  </esp-web-install-button>
+  <!--  Bouton ESP Web Tools -->
+  <div class="btn-wrapper">
+    <esp-web-install-button
+      manifest="./manifest.json"
+      erase-flash>
+      <button class="btn btn-primary">
+        Installer le firmware
+      </button>
+    </esp-web-install-button>
+  </div>
 
-  <!-- Bouton PDF -->
-  <a class="btn btn-secondary"
-     href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf"
-     target="_blank">
-    Télécharger le guide PDF
-  </a>
+  <!--  Bouton PDF -->
+  <div class="btn-wrapper">
+    <a class="btn btn-secondary"
+       href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf"
+       target="_blank">
+      Télécharger le guide PDF
+    </a>
+  </div>
 </div>
+
 </body>
 </html>
