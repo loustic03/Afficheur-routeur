@@ -39,14 +39,14 @@
   }
 
   .btn {
-    display: inline-block;
+    display: block;          /* 👈 centrage garanti */
     width: 100%;
     padding: 12px 20px;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 10px;
     border: none;
-    margin: 10px 0;
+    margin: 10px auto;
     text-decoration: none;
     color: #fff;
   }
@@ -74,18 +74,20 @@
 
   <p class="info">
     Branchez votre ESP32, puis cliquez sur <strong>Installer le firmware</strong>.<br>
-    Si vous avez besoin d’aide, téléchargez le guide PDF.
+    Un guide détaillé est disponible si besoin.
   </p>
 
-  <!-- Bouton d'installation du firmware -->
+  <!-- Bouton installation firmware -->
   <esp-web-install-button
     manifest="./manifest.json"
     erase-flash>
     <button class="btn btn-primary">Installer le firmware</button>
   </esp-web-install-button>
 
-  <!-- Lien PDF -->
-  <a class="btn btn-secondary" href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf" target="_blank">
+  <!-- Bouton PDF -->
+  <a class="btn btn-secondary"
+     href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf"
+     target="_blank">
     Télécharger le guide PDF
   </a>
 </div>
