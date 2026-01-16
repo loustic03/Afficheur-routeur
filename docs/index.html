@@ -1,63 +1,82 @@
 <!DOCTYPE html>
+<!-- Déclare un document HTML5 -->
 <html lang="fr">
 <head>
+
+<!-- Encodage UTF-8 pour accents et caractères spéciaux -->
 <meta charset="UTF-8">
+
+<!-- Titre affiché dans l’onglet du navigateur -->
 <title>Tactile Afficheur routeur - Flash ESP32</title>
 
+<!--
+  Chargement du composant ESP Web Tools
+  Permet de flasher l’ESP32 directement depuis le navigateur
+-->
 <script type="module"
   src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module">
 </script>
 
 <style>
+  /* Style global de la page */
   body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Ubuntu, sans-serif;
+                 Roboto, Ubuntu, sans-serif; /* police moderne multi-OS */
     padding: 20px;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #f8f8f8; /* fond gris clair */
+    color: #333; /* texte gris foncé */
   }
 
+  /* Titres centrés */
   h1, h2 {
     text-align: center;
   }
 
+  /* Conteneur principal (carte blanche au centre) */
   .flash-container {
-    max-width: 520px;
-    margin: 30px auto;
-    padding: 24px;
-    background: #fff;
-    border-radius: 14px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.1);
-    text-align: center;
+    max-width: 520px;           /* largeur max */
+    margin: 30px auto;          /* centrage horizontal */
+    padding: 24px;              /* espace intérieur */
+    background: #fff;           /* fond blanc */
+    border-radius: 14px;        /* coins arrondis */
+    box-shadow: 0 0 12px rgba(0,0,0,0.1); /* ombre douce */
+    text-align: center;         /* centrage du contenu */
   }
 
+  /* Texte explicatif */
   .info {
     font-size: 0.95rem;
     margin: 14px 0 20px;
     color: #555;
   }
 
-  /* CONTENEUR FLEX QUI FORCE LE CENTRAGE */
+  /*
+    Conteneur FLEX
+    Sert à forcer le centrage des boutons,
+    même pour le composant ESP Web Tools
+  */
   .btn-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* centrage horizontal */
     width: 100%;
     margin: 12px 0;
   }
 
+  /* Style commun aux boutons (bleu et vert) */
   .btn {
-    width: 100%;
+    width: 100%;               /* largeur complète du conteneur */
     max-width: 100%;
     padding: 12px 20px;
     font-size: 1rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;     /* supprime soulignement du lien */
     color: #fff;
     text-align: center;
   }
 
+  /* Bouton principal : installation firmware */
   .btn-primary {
     background-color: #03a9f4;
   }
@@ -65,6 +84,7 @@
     background-color: #0288d1;
   }
 
+  /* Bouton secondaire : téléchargement PDF */
   .btn-secondary {
     background-color: #4caf50;
   }
@@ -76,16 +96,24 @@
 
 <body>
 
+<!-- Carte principale -->
 <div class="flash-container">
+
+  <!-- Titre du projet -->
   <h1>Tactile Afficheur routeur</h1>
   <h2>Installation ESP32</h2>
 
+  <!-- Texte d’aide -->
   <p class="info">
     Branchez votre ESP32 puis cliquez sur <strong>Installer le firmware</strong>.<br>
     Un guide PDF est disponible si besoin.
   </p>
 
-  <!--  Bouton ESP Web Tools -->
+  <!--
+    Bouton ESP Web Tools
+    - Utilise le fichier manifest.json
+    - erase-flash efface la mémoire avant installation
+  -->
   <div class="btn-wrapper">
     <esp-web-install-button
       manifest="./manifest.json"
@@ -96,7 +124,11 @@
     </esp-web-install-button>
   </div>
 
-  <!--  Bouton PDF -->
+  <!--
+    Bouton PDF
+    - Lien direct vers le guide utilisateur
+    - S’ouvre dans un nouvel onglet
+  -->
   <div class="btn-wrapper">
     <a class="btn btn-secondary"
        href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf"
@@ -104,6 +136,7 @@
       Télécharger le guide PDF
     </a>
   </div>
+
 </div>
 
 </body>
