@@ -6,14 +6,16 @@
 </head>
 <body>
   <h1>Changelog</h1>
-  <pre id="changelog"></pre>
+  <div id="changelog"></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     fetch("changelog.md")
       .then(res => res.text())
       .then(text => {
-        document.getElementById("changelog").innerText = text;
+        document.getElementById("changelog").innerHTML = marked.parse(text);
       });
   </script>
 </body>
 </html>
+
