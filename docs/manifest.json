@@ -1,6 +1,6 @@
 {
   "name": "Tactile Afficheur routeur",
-  "version": "1.0",
+  "version": "1.01",  
   "builds": [
     {
       "chipFamily": "ESP32",
