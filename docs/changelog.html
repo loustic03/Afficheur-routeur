@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Changelog</title>
+</head>
+<body>
+  <h1>Changelog</h1>
+  <pre id="changelog"></pre>
+
+  <script>
+    fetch("changelog.md")
+      .then(res => res.text())
+      .then(text => {
+        document.getElementById("changelog").innerText = text;
+      });
+  </script>
+</body>
+</html>
