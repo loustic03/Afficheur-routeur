@@ -7,5 +7,5 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
   Exemple:  
   [
   { "file": "version-V4.0.0.bin", "version": "V4.0.0" }  
-  { "file": "version-V4.1.0.bin", "version": "V4.1.0" };  
+  { "file": "version-V4.1.0.bin", "version": "V4.1.0" },    
   ]  
