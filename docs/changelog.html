@@ -10,7 +10,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    fetch("changelog.md")
+    fetch("https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/changelog.md")
       .then(res => res.text())
       .then(text => {
         document.getElementById("changelog").innerHTML = marked.parse(text);
