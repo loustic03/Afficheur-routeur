@@ -9,7 +9,7 @@ version: V1.02
 - Ajout du changelog sur la page web de l'afficheur
 
 ## 2.0 - 2026-01-18  
-La version V1 rendu obsolète  
+La version V1 est rendu obsolète  
 
 Version: V2.00  
 
