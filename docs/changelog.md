@@ -14,7 +14,12 @@ La version V1 est rendu obsolète
 Version: V2.00  
 
 - Ajout Modèle ESP32-2432S028 ( la version avec R doit fonctionner mais non tester)
-- Mise en place de la callibration pour ESP32-2432S028 car le bus est SPI  
+- Mise en place de la callibration pour ESP32-2432S028 car le bus est SPI
+
+## 2.0 - 2026-01-19  
+Mise à jour de la doc  
+
+ 
 
 
 
