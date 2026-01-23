@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "Afficheur-routeur-V2.ino.merged.bin",
+          "path": "Afficheur-routeur-V2.bin",
           "offset": 0
         }
       ]
