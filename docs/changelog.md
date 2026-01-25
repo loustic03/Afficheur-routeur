@@ -25,6 +25,7 @@ Mise à jour de la doc
 - Ajout d'un programmateur journalier sur la page web pour permetre de choisir dans quel mode mettre l'afficheur
 - Il y a 4 programmes horaire possibilité d'avoir l'écran sur la page normal (accueil) éteindre ou horloge
 - Un case qui permet d'activer ou non le programmateur et un champ qui ouvre une popup pour l'info du mode de programme
+- Ajout de modèle : ESP32-2432S028R  
 
 
 
