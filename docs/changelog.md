@@ -19,7 +19,8 @@ Version: V2.00
 ## 2.0 - 2026-01-19  
 Mise à jour de la doc  
 
-## 2.0 - 2026-01-25  
+## 2.0 - 2026-01-25 
+Version V2.01
 - Ajout de l'injection et passage en négatif et en rouge si injection (pas encore valider, pas de soleil ce jour)
 - Ajout d'une Horloge sur une 3e pages de l'écran
 - Ajout d'un programmateur journalier sur la page web pour permetre de choisir dans quel mode mettre l'afficheur
