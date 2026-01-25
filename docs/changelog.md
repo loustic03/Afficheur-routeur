@@ -28,6 +28,11 @@ Version V2.01
 - Un case qui permet d'activer ou non le programmateur et un champ qui ouvre une popup pour l'info du mode de programme
 - Ajout de modèle : ESP32-2432S028R  
 
+## 2.0 - 2026-01-25  
+Version V2.02  
+- Ajout la possibiliter de remonter l'info triac d'un routeur esclave et sera afficher en remplacement du triac par défaut
+- Ajout du fuseau horaire pour la réunion (demande d'un utilisateur)
+- Modification du code de la page web pour avoir une banière NEW VERSION  + numéro si une mise à jour est dispo 
 
 
 
