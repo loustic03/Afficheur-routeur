@@ -30,15 +30,21 @@ Version V2.01
 
 ## 2.0 - 2026-01-25  
 Version V2.02  
-- Ajout la possibiliter de remonter l'info triac d'un routeur esclave et sera afficher en remplacement du triac par défaut
+- Ajout possibiliter de remonter l'info triac d'un routeur esclave et sera afficher en remplacement du triac par défaut
 - Ajout du fuseau horaire pour la réunion (demande d'un utilisateur)
 - Modification du code de la page web pour avoir une banière NEW VERSION  + numéro si une mise à jour est dispo
   
 ## 2.0 - 2026-01-27  
 Version V2.03 
 - Modification de la prise en compte du label sur la ligne 2 (tension ou production)
-- Suppression de la ligne 4 si pas de JSY et PZEM activer
-- Reprise de la gestion de la veille avec le programmateur actif (gestion sur les modes horloge et off) pas de besoin si page1 active  
+- Suppression de la ligne 4 si pas de JSY et PZEM activer (en réflexion sur l'usage future)
+- Reprise de la gestion de la veille avec le programmateur actif (gestion sur les modes horloge et off) pas de besoin si page1 active
+
+Option PIR	    Programmateur activé	 Écran éteint	  Comment ça s’allume ?	   Comment ça s’éteint ?
+PIR désactivé	  Oui	                   Oui	          Touch uniquement	       Après 5 min (inactivité touch)
+PIR activé	    Oui	                   Oui	          Touch ou PIR	           Après 5 min (touch ou PIR)
+PIR désactivé	  Non	                   Oui	          Touch uniquement	       Après 5 min
+PIR activé	    Non	                   Oui	          Touch ou PIR	           Après 5 min 
 
 
 
