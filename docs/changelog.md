@@ -40,11 +40,14 @@ Version V2.03
 - Suppression de la ligne 4 si pas de JSY et PZEM activer (en réflexion sur l'usage future)
 - Reprise de la gestion de la veille avec le programmateur actif (gestion sur les modes horloge et off) pas de besoin si page1 active
 
-Option PIR	    Programmateur activé	 Écran éteint	  Comment ça s’allume ?	   Comment ça s’éteint ?
-PIR désactivé	  Oui	                   Oui	          Touch uniquement	       Après 5 min (inactivité touch)
-PIR activé	    Oui	                   Oui	          Touch ou PIR	           Après 5 min (touch ou PIR)
+Option PIR	    Programmateur activé	 Écran éteint	  Comment ça s’allume ?	   Comment ça s’éteint ?  
+
+PIR désactivé	  Oui	                   Oui	          Touch uniquement	       Après 5 min (inactivité touch)  
+PIR activé	    Oui	                   Oui	          Touch ou PIR	           Après 5 min (touch ou PIR)  
 PIR désactivé	  Non	                   Oui	          Touch uniquement	       Après 5 min
 PIR activé	    Non	                   Oui	          Touch ou PIR	           Après 5 min 
+
+
 
 
 
