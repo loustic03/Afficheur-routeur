@@ -42,10 +42,10 @@ Version V2.03
 
 Option PIR	    Programmateur activé	 Écran éteint	  Comment ça s’allume ?	   Comment ça s’éteint ?  
 
-PIR désactivé	  Oui	                   Oui	          Touch uniquement	       Après 5 min (inactivité touch)  
-PIR activé	    Oui	                   Oui	          Touch ou PIR	           Après 5 min (touch ou PIR)  
-PIR désactivé	  Non	                   Oui	          Touch uniquement	       Après 5 min
-PIR activé	    Non	                   Oui	          Touch ou PIR	           Après 5 min 
+PIR désactivé |	Oui	                 | Oui	        | Touch uniquement	     | Après 5 min (inactivité touch)  
+PIR activé	  | Oui	                 | Oui	        | Touch ou PIR	         | Après 5 min (touch ou PIR)  
+PIR désactivé	| Non	                 | Oui	        | Touch uniquement	     | Après 5 min
+PIR activé	  | Non	                 | Oui	        | Touch ou PIR	         | Après 5 min 
 
 
 
