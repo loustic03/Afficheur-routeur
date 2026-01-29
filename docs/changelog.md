@@ -40,6 +40,17 @@ Version V2.03
 - Suppression de la ligne 4 si pas de JSY et PZEM activer (en réflexion sur l'usage future)
 - Reprise de la gestion de la veille avec le programmateur actif (gestion sur les modes horloge et off) pas de besoin si page1 active
 
+## 2.0 - 2026-01-27  
+Version V2.04  
+- Correction bug sur l'affichage de la vigilance
+- Ajout de la récupération de TempoRte interne pour permettre à ceux qui sont sur d'ancienne version du routeur de pouvoir afficher
+les couleurs Jour et Demain
+- Modification de l'affichage de la ligne 4, si pas de JSY ou PZEM la ligne n'est plus afficher
+- Modification pour renommer la ligne 2
+  
+
+
+
 
 
 
