@@ -47,6 +47,15 @@ Version V2.04
 les couleurs Jour et Demain
 - Modification de l'affichage de la ligne 4, si pas de JSY ou PZEM la ligne n'est plus afficher
 - Modification pour renommer la ligne 2
+
+## 2.0 - 2026-02-01  
+Version V2.05  
+- Correction bug sur la remonter d'info de TempoRte interne de l'esp quand le F1ATB est dans une version inférieur à V16.05
+- Suppression du bouton plus bleu et mise en place d'un swiper sur le tactile (glissement du doigt pour changer de page
+- Ajout d'une fonction pour les utilisateur Jeedom, cette fonction permet de pouvoir afficher en ligne 4 de l'afficheur
+la puissance totale routée depuis un virtuel qui fait la somme des puissances ( si plusieurs modules remonte l'info
+→ exemple PZEM , Shelly et autres
+- Mise à jour de la doc
   
 
 
