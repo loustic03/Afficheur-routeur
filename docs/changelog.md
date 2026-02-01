@@ -51,7 +51,7 @@ les couleurs Jour et Demain
 ## 2.0 - 2026-02-01  
 Version V2.05  
 - Correction bug sur la remonter d'info de TempoRte interne de l'esp quand le F1ATB est dans une version inférieur à V16.05
-- Suppression du bouton plus bleu et mise en place d'un swiper sur le tactile (glissement du doigt pour changer de page)
+- Suppression du bouton plus bleu et mise en place d'un swiper sur le tactile (glissement du doigt pour changer de page)  
 - Ajout d'une fonction pour les utilisateurs Jeedom, cette fonction permet de pouvoir afficher en ligne 4 de l'afficheur
 la puissance totale routée depuis un virtuel qui fait la somme des puissances ( si plusieurs modules remonte l'info
 → exemple PZEM , Shelly et autres
