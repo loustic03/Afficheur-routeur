@@ -57,6 +57,8 @@ la puissance totale routée depuis un virtuel qui fait la somme des puissances (
 → exemple PZEM , Shelly et autres
 - Mise à jour de la doc
 - Ajout de pouvoir allumer/éteindre/changer de page depuis l'envoi d'une commande MQTT depuis la domotique, ne fonctionne uniquement si le programmateur est désactiver
+
+- Ajout d'un bouton dans la page LOG pour télécharger le log en fichier.txt
   
   
 
