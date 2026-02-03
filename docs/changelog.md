@@ -60,6 +60,9 @@ la puissance totale routée depuis un virtuel qui fait la somme des puissances (
 
 - Ajout d'un bouton dans la page LOG pour télécharger le log en fichier.txt
   
+## 2.0 - 2026-02-03  
+Version V2.06  
+- Ajout de la possibilité de remonter l'info d'un SSR en pourcentage pour le routeur maître ou esclave (demande de lucianow1)  
   
 
 
