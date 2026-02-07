@@ -64,7 +64,13 @@ la puissance totale routée depuis un virtuel qui fait la somme des puissances (
 Version V2.06  
 - Ajout de la possibilité de remonter l'info d'un SSR en pourcentage pour le routeur maître ou esclave (demande de lucianow1)  
   
-
+## 2.0 - 2026-02-07  
+Version V2.07  
+- Ajout d'un bargraphe représentant un chauffe eau avec segment qui augmente et clignote lors de la chauffe
+- Correction bug sur remonter de température
+- Ajout d'une fonction supplémentaire pour remonter la production si besoin depuis la domotique en MQTT (testé sur JEEDOM)
+- Ajout d'un bargraphe dedier (batterie) pour avoir l'info si en charge et remplissage
+     
 
 
 
