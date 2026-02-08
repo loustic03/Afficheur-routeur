@@ -70,6 +70,16 @@ Version V2.07
 - Correction bug sur remonter de température
 - Ajout d'une fonction supplémentaire pour remonter la production si besoin depuis la domotique en MQTT (testé sur JEEDOM)
 - Ajout d'un bargraphe dedier (batterie) pour avoir l'info si en charge et remplissage
+
+## 2.0 - 2026-02-08
+Version V2.08
+- Ajout d'une aleternative pour la météo, mise en place de l'info météo open-meteo (https://open-meteo.com/en/docs)
+Cette API n'utilise pas de clé API et est entierement gratuite
+Sur l'afficheur openweathermap est activer par défaut, il suffit d'activer open-météo depuis la page web
+- Modification de la page web
+- Correction d'un bug sur le bargraphe chauffe eau
+- Ajout d'un bargraphe pour une batterie de stokage et alimenter par MQTT pour savoir elle est en charge et info de son % de charge
+  
      
 
 
