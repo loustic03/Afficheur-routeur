@@ -79,6 +79,11 @@ Sur l'afficheur openweathermap est activer par défaut, il suffit d'activer open
 - Modification de la page web
 - Correction d'un bug sur le bargraphe chauffe eau
 - Ajout d'un bargraphe pour une batterie de stokage et alimenter par MQTT pour savoir elle est en charge et info de son % de charge
+
+## 2.0 - 2026-02-09  
+Version V2.08  
+- Correction bug sur la fonction d'alternative de la météo
+- Version V2.08 à réinstaller pour prendre en compte la correction
   
      
 
