@@ -84,6 +84,12 @@ Sur l'afficheur openweathermap est activer par défaut, il suffit d'activer open
 Version V2.08  
 - Correction bug sur la fonction d'alternative de la météo
 - Version V2.08 à réinstaller pour prendre en compte la correction
+
+## 2.0 - 2026-02-10  
+Version V2.09
+- Ajout de remonter d'un 2e routeur esclave utiliser pour le moment uniquement pour l'info température canal 0 et 1
+- Modification de la page web pour le 2e esclave
+
   
      
 
