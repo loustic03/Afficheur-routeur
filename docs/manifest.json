@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "Afficheur-routeur-V3.bin",
+          "path": "Afficheur_routeur_V3.bin",
           "offset": 0
         }
       ]
