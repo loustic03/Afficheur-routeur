@@ -90,6 +90,10 @@ Version V2.09
 - Ajout de remonter d'un 2e routeur esclave utiliser pour le moment uniquement pour l'info température canal 0 et 1
 - Modification de la page web pour le 2e esclave
 
+## 3.0 - 2026-02-14  
+Version V3.00  
+- Correction bug météo
+- Ajout d'un Popup 'Aide MQTT) dans le formulaire MQTT F1ATB
   
      
 
