@@ -93,7 +93,7 @@ Version V2.09
 ## 3.0 - 2026-02-14  
 Version V3.00  
 - Correction bug météo
-- Ajout d'un Popup 'Aide MQTT) dans le formulaire MQTT F1ATB
+- Ajout d'un Popup 'Aide MQTT' dans le formulaire MQTT F1ATB
 - Remplacement du .bin de base sur le lien de téléchargement de départ (première mise ne service donc V3 par défaut)
   
      
