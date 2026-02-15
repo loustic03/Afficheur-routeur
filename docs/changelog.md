@@ -95,7 +95,12 @@ Version V3.00
 - Correction bug météo
 - Ajout d'un Popup 'Aide MQTT' dans le formulaire MQTT F1ATB
 - Remplacement du .bin de base sur le lien de téléchargement de départ (première mise ne service donc V3 par défaut)
-  
+
+## 3.0 - 2026-02-15
+Version V3.01  
+- Ajout de l'info TEMPO sur la page de l'horloge pour ceux ayant tempo
+- Modification dans le Setup le démarage du server web et correction connexion au wifi
+- Ajout d'un bargraphe radiateur avec choix du routeur esclave (1 ou 2)
      
 
 
