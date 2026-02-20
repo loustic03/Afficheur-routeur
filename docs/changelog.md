@@ -101,6 +101,12 @@ Version V3.01
 - Ajout de l'info TEMPO sur la page de l'horloge pour ceux ayant tempo
 - Modification dans le Setup le démarage du server web et correction connexion au wifi
 - Ajout d'un bargraphe radiateur avec choix du routeur esclave (1 ou 2)
+
+## 3.0 - 2026-02-20  
+Version V3.02  
+- Ajout rotation de l'écran (demandé) non testé sur ESP32-2432S028R
+- Ajout d'une page wed pour Live Data
+
      
 
 
