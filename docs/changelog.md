@@ -105,7 +105,7 @@ Version V3.01
 ## 3.0 - 2026-02-20  
 Version V3.02  
 - Ajout rotation de l'écran (demandé) non testé sur ESP32-2432S028R
-- Ajout d'une page wed pour Live Data
+- Ajout d'une page web pour Live Data
 
      
 
