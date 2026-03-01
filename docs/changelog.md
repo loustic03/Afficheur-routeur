@@ -106,7 +106,18 @@ Version V3.01
 Version V3.02  
 - Ajout rotation de l'écran (demandé) non testé sur ESP32-2432S028R
 - Ajout d'une page web pour Live Data
-
+- 
+## 3.0 - 2026-03-01
+version V3.03  
+- Ajout d'une page Energie type HA
+- Ajout d'un bargraphe batterie de stockage, fonction possible :
+  remonter du % de charge et puissance de charge
+  Si les 2 infos sont remonter le bargraphe indiquera le % de charge sur les segments,
+  si seul l'info de puissance de charge , les segments seront animés
+- Ajout fonction pour lancer un forçage de chauffe de 30 min sur le routeur par un mouvement de glisser de doigt 
+ sur l'afficheur de bas en haut et arrêter le forçage par un glisser de haut en bas
+- Ajout d'une fonction de contrôle et info avec l'application Telegram (voir doc)
+  
      
 
 
