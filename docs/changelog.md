@@ -117,6 +117,7 @@ version V3.03
 - Ajout fonction pour lancer un forçage de chauffe de 30 min sur le routeur par un mouvement de glisser de doigt 
  sur l'afficheur de bas en haut et arrêter le forçage par un glisser de haut en bas
 - Ajout d'une fonction de contrôle et info avec l'application Telegram (voir doc)
+- Modification des fonctions perso  
   
      
 
