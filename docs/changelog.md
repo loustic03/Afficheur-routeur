@@ -108,7 +108,7 @@ Version V3.02
 - Ajout d'une page web pour Live Data
 - 
 ## 3.0 - 2026-03-01
-version V3.03  
+Version V3.03  
 - Ajout d'une page Energie type HA
 - Ajout d'un bargraphe batterie de stockage, fonction possible :
   remonter du % de charge et puissance de charge
@@ -117,7 +117,19 @@ version V3.03
 - Ajout fonction pour lancer un forçage de chauffe de 30 min sur le routeur par un mouvement de glisser de doigt 
  sur l'afficheur de bas en haut et arrêter le forçage par un glisser de haut en bas
 - Ajout d'une fonction de contrôle et info avec l'application Telegram (voir doc)
-- Modification des fonctions perso  
+- Modification des fonctions perso
+
+## 3.0 - 2026-03-08
+Version V3.04  
+-Correction de l'animation des points sur la page Energie Live  
+- Modification du code pour l'utilisation de Telegram , passage de la fonction sur le core 0
+- Ajout de l'utilisation d'un PZEM PZEM-004T brancher sur l'afficheur (permet d'avoir une info de puissance si l'afficheur est installer
+  sur un tableau
+  
+- Utilisation de la librairie MycilaPZEM de Mathieu Carbour
+  
+- Pin utiliser pour le PZEM : pin 22 relier sur RX et pin 21 relier sur TX permet d'être plus simple pour l'utilisation d'un JC2432W328
+- Modification en pin 35 pour le capteur PIR
   
      
 
