@@ -120,8 +120,9 @@ Version V3.03
 - Modification des fonctions perso
 
 ## 3.0 - 2026-03-08
-Version V3.04  
--Correction de l'animation des points sur la page Energie Live  
+Version V3.04   
+
+- Correction de l'animation des points sur la page Energie Live  
 - Modification du code pour l'utilisation de Telegram , passage de la fonction sur le core 0
 - Ajout de l'utilisation d'un PZEM PZEM-004T brancher sur l'afficheur (permet d'avoir une info de puissance si l'afficheur est installer
   sur un tableau
