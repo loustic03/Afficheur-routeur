@@ -1,90 +1,86 @@
 <!DOCTYPE html>
-<!-- Déclare un document HTML5 -->
 <html lang="fr">
 <head>
-
-<!-- Encodage UTF-8 pour accents et caractères spéciaux -->
 <meta charset="UTF-8">
-
-<!-- Titre affiché dans l’onglet du navigateur -->
 <title>Tactile Afficheur routeur - Flash ESP32</title>
-
-<!--
-  Chargement du composant ESP Web Tools
-  Permet de flasher l’ESP32 directement depuis le navigateur
--->
 <script type="module"
   src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module">
 </script>
-
 <style>
-  /* Style global de la page */
   body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Ubuntu, sans-serif; /* police moderne multi-OS */
+                 Roboto, Ubuntu, sans-serif;
     padding: 20px;
-    background-color: #f8f8f8; /* fond gris clair */
-    color: #333; /* texte gris foncé */
+    background-color: #f8f8f8;
+    color: #333;
   }
-
-  /* Titres centrés */
   h1, h2 {
     text-align: center;
   }
-
-  /* Conteneur principal (carte blanche au centre) */
   .flash-container {
-    max-width: 520px;           /* largeur max */
-    margin: 30px auto;          /* centrage horizontal */
-    padding: 24px;              /* espace intérieur */
-    background: #fff;           /* fond blanc */
-    border-radius: 14px;        /* coins arrondis */
-    box-shadow: 0 0 12px rgba(0,0,0,0.1); /* ombre douce */
-    text-align: center;         /* centrage du contenu */
+    max-width: 520px;
+    margin: 30px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    text-align: center;
   }
-
-  /* Texte explicatif */
   .info {
     font-size: 0.95rem;
     margin: 14px 0 20px;
     color: #555;
   }
-
-  /*
-    Conteneur FLEX
-    Sert à forcer le centrage des boutons,
-    même pour le composant ESP Web Tools
-  */
+  /* Menu déroulant */
+  .select-wrapper {
+    margin: 0 0 18px 0;
+  }
+  .select-wrapper label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  .select-wrapper select {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    background: #f4f8ff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .select-wrapper select:focus {
+    border-color: #03a9f4;
+  }
   .btn-wrapper {
     display: flex;
-    justify-content: center; /* centrage horizontal */
+    justify-content: center;
     width: 100%;
     margin: 12px 0;
   }
-
-  /* Style commun aux boutons (bleu et vert) */
   .btn {
-    width: 100%;               /* largeur complète du conteneur */
+    width: 100%;
     max-width: 100%;
     padding: 12px 20px;
     font-size: 1rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    text-decoration: none;     /* supprime soulignement du lien */
+    text-decoration: none;
     color: #fff;
     text-align: center;
   }
-
-  /* Bouton principal : installation firmware */
   .btn-primary {
     background-color: #03a9f4;
   }
   .btn-primary:hover {
     background-color: #0288d1;
   }
-
-  /* Bouton secondaire : téléchargement PDF */
   .btn-secondary {
     background-color: #4caf50;
   }
@@ -93,29 +89,28 @@
   }
 </style>
 </head>
-
 <body>
-
-<!-- Carte principale -->
 <div class="flash-container">
-
-  <!-- Titre du projet -->
   <h1>Tactile Afficheur routeur pour F1ATB</h1>
   <h2>Installation ESP32</h2>
-
-  <!-- Texte d’aide -->
   <p class="info">
-    Branchez votre ESP32 puis cliquez sur <strong>Installer le firmware</strong>.<br>
+    Branchez votre ESP32, choisissez la version puis cliquez sur <strong>Installer le firmware</strong>.<br>
     Un guide PDF est disponible si besoin.
   </p>
 
-  <!--
-    Bouton ESP Web Tools
-    - Utilise le fichier manifest.json
-    - erase-flash efface la mémoire avant installation
-  -->
+  <!-- Menu déroulant choix de version -->
+  <div class="select-wrapper">
+    <label for="version-select">Choisir la version du firmware :</label>
+    <select id="version-select" onchange="updateManifest()">
+      <option value="./manifest.json">Version 3.00 (core original)</option>
+      <option value="./manifest_v304.json">Version 3.04 (core modifié)</option>
+    </select>
+  </div>
+
+  <!-- Bouton ESP Web Tools — manifest mis à jour dynamiquement -->
   <div class="btn-wrapper">
     <esp-web-install-button
+      id="install-btn"
       manifest="./manifest.json"
       erase-flash>
       <button class="btn btn-primary">
@@ -124,11 +119,6 @@
     </esp-web-install-button>
   </div>
 
-  <!--
-    Bouton PDF
-    - Lien direct vers le guide utilisateur
-    - S’ouvre dans un nouvel onglet
-  -->
   <div class="btn-wrapper">
     <a class="btn btn-secondary"
        href="Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf"
@@ -136,8 +126,15 @@
       Télécharger le guide PDF
     </a>
   </div>
-
 </div>
 
+<script>
+  function updateManifest() {
+    const select = document.getElementById('version-select');
+    const btn = document.getElementById('install-btn');
+    // Met à jour l'attribut manifest selon la version choisie
+    btn.setAttribute('manifest', select.value);
+  }
+</script>
 </body>
 </html>
