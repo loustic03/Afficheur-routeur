@@ -131,7 +131,11 @@ Version V3.04
   
 - Pin utiliser pour le PZEM : pin 22 relier sur RX et pin 21 relier sur TX permet d'être plus simple pour l'utilisation d'un JC2432W328
 - Modification en pin 35 pour le capteur PIR
-  
+
+## 3.0 - 2026-03-14  
+Version V3.04  
+Cette version est à télécharger depuis la page de téléchargement de première mise en service car le firmware passe pas dans la mise à jour classique   
+- version V3.041 (mise à jour classique avec modification du code sur la réception topic pour la batterie 
      
 
 
