@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -98,7 +99,7 @@
     Un guide PDF est disponible si besoin.
   </p>
 
-  <!-- Menu déroulant choix de version -->
+  <!-- Menu déroulant choix de version - à commenter quand la version V4.01 sera arriver -->
   <div class="select-wrapper">
     <label for="version-select">Choisir la version du firmware :</label>
     <select id="version-select" onchange="updateManifest()">
@@ -132,7 +133,7 @@
   function updateManifest() {
     const select = document.getElementById('version-select');
     const btn = document.getElementById('install-btn');
-    // Met à jour l'attribut manifest selon la version choisie
+    // Met à jour l'attribut manifest selon la version choisie à modifier pour V4.01
     btn.setAttribute('manifest', select.value);
   }
 </script>
