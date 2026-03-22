@@ -135,9 +135,17 @@ Version V3.04
 ## 3.0 - 2026-03-14  
 Version V3.04  
 Cette version est à télécharger depuis la page de téléchargement de première mise en service car le firmware passe pas dans la mise à jour classique   
-- version V3.041 (mise à jour classique avec modification du code sur la réception topic pour la batterie 
-     
+- version V3.041 (mise à jour classique avec modification du code sur la réception topic pour la batterie
 
+## 3.0 -2026-03-22  
+Version V3.05  
+Il n'est pas possible de télécharger cette version si la V3.04 n'est pas encore en place sur l'afficheur.
+
+- Refonte totale des pages web
+- Ajout d'un écran qui reproduit la page web VISUALISATION LIVE, elle peut-être appeler depuis le programmateur dans Mode → Dashboard Web
+- Ajout d'un mode déporté de l'afficheur pour être utiliser sur la tableau électrique ou autre
+
+![Afficheur-déporté-tableau](https://github.com/user-attachments/assets/5ac68c37-da7c-49ce-8ac0-420c9dbb0b41)
 
 
 
