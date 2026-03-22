@@ -1,0 +1,15 @@
+{
+  "name": "Tactile Afficheur routeur",
+  "version": "3.05",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "Afficheur_routeur_V3.05.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
