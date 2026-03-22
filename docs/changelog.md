@@ -106,10 +106,16 @@ Version V3.01
 Version V3.02  
 - Ajout rotation de l'écran (demandé) non testé sur ESP32-2432S028R
 - Ajout d'une page web pour Live Data
-- 
+  
+![Live-data](https://github.com/user-attachments/assets/11eedb49-1e95-4cc4-af5e-e5d5957590ae)  
+
+
 ## 3.0 - 2026-03-01
 Version V3.03  
 - Ajout d'une page Energie type HA
+  
+  ![Page-energie avec batterie](https://github.com/user-attachments/assets/02ad3e8f-d3a1-4532-9d80-e4675cfd28a8)
+
 - Ajout d'un bargraphe batterie de stockage, fonction possible :
   remonter du % de charge et puissance de charge
   Si les 2 infos sont remonter le bargraphe indiquera le % de charge sur les segments,
