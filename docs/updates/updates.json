@@ -1,8 +1,9 @@
+
 [
-  { "file": "Afficheur_routeur_V3.00.bin", "version": "V3.00" },
-  { "file": "Afficheur_routeur_V3.01.bin", "version": "V3.01" },
-  { "file": "Afficheur_routeur_V3.02.bin", "version": "V3.02" },
-  { "file": "Afficheur_routeur_V3.03.bin", "version": "V3.03" },
-  { "file": "Afficheur_routeur_V3.041.bin", "version": "V3.041" },
-  { "file": "Afficheur_routeur_V3.05.bin", "version": "V3.05" }
+  { "file": "Afficheur_routeur_V3.00.bin", "version": "V3.00", "url": "https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/updates/Afficheur_routeur_V3.00.bin" },
+  { "file": "Afficheur_routeur_V3.01.bin", "version": "V3.01", "url": "https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/updates/Afficheur_routeur_V3.01.bin" },
+  { "file": "Afficheur_routeur_V3.02.bin", "version": "V3.02", "url": "https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/updates/Afficheur_routeur_V3.02.bin" },
+  { "file": "Afficheur_routeur_V3.03.bin", "version": "V3.03", "url": "https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/updates/Afficheur_routeur_V3.03.bin" },
+  { "file": "Afficheur_routeur_V3.041.bin", "version": "V3.041", "url": "https://raw.githubusercontent.com/loustic03/Afficheur-routeur/main/docs/updates/Afficheur_routeur_V3.041.bin" },
+  { "file": "Afficheur_routeur_V3.05.bin", "version": "V3.05", "url": "https://github.com/loustic03/Afficheur-routeur/releases/download/v3.05/Afficheur_routeur_V3.05.bin" }
 ]
