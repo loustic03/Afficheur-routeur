@@ -153,6 +153,12 @@ Il n'est pas possible de télécharger cette version si la V3.04 n'est pas encor
 
 ![Afficheur-déporté-tableau](https://github.com/user-attachments/assets/5ac68c37-da7c-49ce-8ac0-420c9dbb0b41)
 
+## 3.0 - 2026-03-27  
+Version V3.06 / 07  
+- Correction bug pour utilisation PZEM sur ESP32-2432S028
+- Correction topic et payload pour info photovoltaique depuis MQTT extern
+- Modification de la méthode de téléchargement des firmware depuis github
+- Correction bug pour le programmateur sur écran déporté 
 
 
 
