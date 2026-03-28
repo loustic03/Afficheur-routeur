@@ -284,13 +284,12 @@ Lors de la mise à jour il faut bien attendre que l’Afficheur redémarre car l
 
 Le bouton CHANGELOG permet de voir les corrections de bug ou ajout de fonction  
 
-** Reset usine , efface toutes les paramétrés et l’esp redémarre**
+# Reset usine , efface toutes les paramétrés et l’esp redémarre
 
 Il sera en mode AP attente de connexion au wifi   
 
 <img width="307" height="139" alt="image" src="https://github.com/user-attachments/assets/deaae7b1-4e4e-499d-969d-edd47872e718" />  
 
-### Résumé du comportement du programmateur horaire (selon options)
 
 ### Résumé du comportement du programmateur horaire (selon options)
 
@@ -300,6 +299,122 @@ Il sera en mode AP attente de connexion au wifi
 | **Activé** | Oui         | Oui         | Touch ou PIR          | Après 5 min (touch ou PIR)      |
 | **Désactivé** | Non         | Oui         | Touch uniquement      | Après 5 min                     |
 | **Activé** | Non         | Oui         | Touch ou PIR          | Après 5 min (touch ou PIR)      |
+
+
+### OPTIONS DIVERS  
+
+* Possibilité de changer de fuseau horaire
+<img width="652" height="188" alt="image" src="https://github.com/user-attachments/assets/2a16f81c-e1f2-4eaa-8e6b-8947a7f5de9a" />
+
+# MQTT DOMOTIQUE  
+
+* Routage global permet de remonter depuis un serveur domotique en MQTT la puissance routé global
+  Il faut activer la fonction
+  Et rentrer le topic extern routage et le topic externe exact
+
+  <img width="648" height="261" alt="image" src="https://github.com/user-attachments/assets/6e3ddf70-b632-40d5-820f-95a9ed15d015" />
+
+Exemple d'envoi depuis JEEDOM pour ma part   
+<img width="1585" height="144" alt="image" src="https://github.com/user-attachments/assets/bb8b435a-97ce-47bf-8469-98156e922a6b" />  
+
+* La production photovoltaïque, idem pour les infos à rentrer en MQTT depuis la domotique
+  <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
+  
+* Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
+ 
+  <img width="656" height="325" alt="image" src="https://github.com/user-attachments/assets/18f343f5-618b-470c-8e83-cc169f7975a0" />
+
+  <img width="272" height="220" alt="image" src="https://github.com/user-attachments/assets/67f12c76-ca03-425e-8f60-b7b94c441ef5" />
+
+  
+## Bargraphe & Radiateur   
+
+Permet d'afficher un icon ballon d'eau chaude et à côté un radiateur (si utiliser sur un routeur esclave)
+
+Permet le choix de la sonde de température pour le ballon  
+Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en choix)  
+
+<img width="649" height="412" alt="image" src="https://github.com/user-attachments/assets/411b5db8-7d61-49a3-8f88-cb10eb2043e4" />  
+
+<img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/703b914b-9f35-43b4-ada4-041b739eb021" />    
+
+<img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/6cce5a2b-ebd0-492e-9c86-21afd990013f" />  
+
+
+
+## Autre option   
+
+* Depuis le prograammateur si mis en : Energie Live
+  
+  <img width="324" height="255" alt="image" src="https://github.com/user-attachments/assets/8174774c-0d78-43a3-8b90-68dbbd8d502f" />
+  
+
+
+### Telegram  
+
+Il est possible d’utiliser la messagerie Telegram sur l’afficheur et les commandes seront transmisse au routeur par le biais de MQTT.  
+
+Mise en place de Telegram sur le téléphone :  
+
+[TELEGRAM](https://telegram.org/android?setln=fr)  
+
+Pour que votre appareil puisse vous envoyer des notifications, vous devez récupérer deux informations essentielles : le Jeton (Token) et votre ID Utilisateur.  
+
+1. Création du Bot (Obtenir le Token)  
+Le "BotFather" est l'outil officiel de Telegram pour créer des bots.  
+    1. Ouvrez Telegram et recherchez le contact @BotFather.  
+    2. Cliquez sur Démarrer.  
+    3. Envoyez la commande : /newbot.  
+    4. Suivez les instructions :  
+        ◦ Donnez un Nom à votre bot (ex: Mon Alerte ESP32).  
+        ◦ Choisissez un Username (doit se terminer par bot, ex: alerte_maison_123_bot).  
+    5. Copiez le Token API qui s'affiche (ex: 7123456789:AAF...). C'est ce code que vous devrez coller dans la page de configuration de votre appareil.  
+
+2. Récupérer votre ID Utilisateur (Chat ID)  
+L'ID est un numéro unique qui permet au bot de savoir à qui envoyer les messages. Pour des raisons de sécurité, un bot ne peut pas vous parler si vous ne l'avez pas "autorisé" d'abord.  
+    1. Recherchez votre propre bot sur Telegram (via l'Username que vous venez de créer).  
+    2. Cliquez sur Démarrer ou envoyez-lui n'importe quel message.  
+    3. Recherchez maintenant le contact @userinfobot.  
+    4. Cliquez sur Démarrer.  
+    5. Le bot vous répond avec votre Id (une suite de 9 ou 10 chiffres). Notez ce numéro.  
+
+ 3. Configuration de l'appareil  
+Une fois ces deux éléments en main :  
+    1. Connectez-vous à l'interface web de l’afficheur dans la page Option  
+    2. Remplissez les champs :  
+        ◦ Bot Token : Collez le jeton du BotFather.  
+        ◦ Chat ID : Collez votre ID numérique.  
+    3. Enregistrez.  
+    4. Depuis telegram sur le bot créer envoyer /status et le bot recevra les commandes disponible, ce sont les même pour l’envoi de commande MQTT  
+       
+   <img width="150" height="178" alt="image" src="https://github.com/user-attachments/assets/5067d5e2-c283-4db3-a267-694d0de92c10" />  
+   
+la commande /info renvoi sur le bot    
+
+<img width="195" height="239" alt="image" src="https://github.com/user-attachments/assets/d8133b55-20d2-45ad-9f3e-40fda693154c" />  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
