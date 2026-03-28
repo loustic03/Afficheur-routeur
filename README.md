@@ -381,8 +381,7 @@ Pour que votre appareil puisse vous envoyer des notifications, vous devez récup
    * Enregistrez.  
    * Envoyez `/status` à votre bot pour recevoir les commandes disponibles (identiques aux commandes MQTT).
      
-       
-   <img width="150" height="178" alt="image" src="https://github.com/user-attachments/assets/5067d5e2-c283-4db3-a267-694d0de92c10" />  
+<img width="150" height="178" alt="image" src="https://github.com/user-attachments/assets/5067d5e2-c283-4db3-a267-694d0de92c10" />  
    
 la commande /info renvoi sur le bot    
 
