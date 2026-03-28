@@ -128,6 +128,77 @@ distant (domotique) donc ne doit pas être cocher pour une utilisation du Broker
 
 # $\color{red}{\textsf{Usage du BROKER EMBARQUÉ SUR L'AFFICHEUR-ROUTEUR}}$
 
+* Topic PicoMQTT : il faut rentrer le topic choisi sur le routeur F1ATB et le topic sur l’Afficheur
+doit être rempli comme ceci :  Tampon_state attention a ne pas oublier le _state (très important)
+
+<img width="984" height="343" alt="image" src="https://github.com/user-attachments/assets/44327772-4793-4c86-8309-6dd794247f08" />   
+
+Dans Adresse IP Host rentrer l’adresse IP de l’afficheur   
+Comment doit être inscrit le topic sur l’afficheur   
+<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/64030f87-1a30-4af4-be9a-ca63ffe4eb6d" />    
+
+$\color{red}{\textsf{Usage du Broker distant (domotique)}}$  
+
+* Topic extenre subscribe : doit être rempli comme ceci : Tampon/#
+* Topic externe exact : doit être rempli comme ceci : Tampon/Tampon_state
+<img width="995" height="346" alt="image" src="https://github.com/user-attachments/assets/3f7706b9-9721-4604-b5f5-1ad7faf88a4e" />
+
+**Sur l‘afficheur rentrer dans serveur IP du broker distant**  
+<img width="641" height="83" alt="image" src="https://github.com/user-attachments/assets/a656f808-dfc0-4dd7-b0c1-240803987f6e" />  
+
+**Possibilité de recevoir les infos d’un routeur F1ATB esclave.**  
+Il suffit de cocher la case Activer Routeur n°2 et remplir le formulaire des topics en fonction si broker de l’afficheur ou broker distant mais différent du routeur maître.  
+
+$\color{red}{\textsf{************    Pour faire simple  ************}}$
+**Mqtt de l’afficheur :**  
+<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />  
+
+<img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" />  
+
+** Mqtt externe (broker distant ou HA)**  
+
+<img width="631" height="71" alt="image" src="https://github.com/user-attachments/assets/3c355887-0769-4c3c-8950-39567a73184d" />  
+
+<img width="859" height="67" alt="image" src="https://github.com/user-attachments/assets/83826c60-b695-44a1-9700-ca832102ca87" />  
+
+Forçage du triac :  
+
+Depuis l’écran, il suffit de glisser le doigt du bas vers le haut pour activer le forçage de 30 mm  
+et du haut vers le bas pour arrêter le forçage   
+
+Depuis la domotique pour lancer une marche forcée de 30 min  
+
+<img width="646" height="321" alt="image" src="https://github.com/user-attachments/assets/3c3a0dee-ea41-4027-8aeb-3277a7487ae7" />  
+
+
+Si utilisation d’un SSR sur routeur maître cocher la case SSR routeur maître  
+La case Triac – SSR externe permet si elle est cocher d’avoir sur l’afficheur le pourcentage d’ouverture routeur esclave à la place du routeur maître  
+
+JSY /Shelly EM remonte le tore 2 du JSY ou le canal 1 du shelly EM  en ligne 4  
+
+<img width="661" height="273" alt="image" src="https://github.com/user-attachments/assets/3f77a978-30bd-4b0a-b020-36e0b7c8fa06" />  
+
+
+
+**##* Page PARAMETRES  
+
+<img width="646" height="74" alt="image" src="https://github.com/user-attachments/assets/e29fc8ed-ecc4-4528-b990-380ad0ecca30" />  
+
+Il est possible de remonter sur l’afficheur 3 sondes de température max du routeur F1ATB et de la renommer avec un maximum de 11 caractères.  
+
+<img width="647" height="518" alt="image" src="https://github.com/user-attachments/assets/52d0a713-0778-4a6e-9dd2-fa3d954df3c4" />  
+
+Température 1 canal 0 routeur maître  
+Température 2 canal 1 routeur maître  
+
+Température 3 canal 0 routeur esclave 1  
+Température 4 canal 1 routeur esclave 1  
+
+Température 5 canal 0 routeur esclave 2  
+Température 6 canal 1 routeur esclave 2  
+
+
+
 
 
 
