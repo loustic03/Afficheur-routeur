@@ -140,7 +140,7 @@ distant (domotique) donc ne doit pas être cocher pour une utilisation du Broker
 * Utilisateur :  pour broker distant si utiliser (fonction non tester)
 * Mot de passe :  pour broker distant si utiliser (fonction non tester)
 
-# $\color{red}{\textsf{Usage du BROKER EMBARQUÉ SUR L'AFFICHEUR-ROUTEUR}}$
+$\color{red}{\textsf{Usage du BROKER EMBARQUÉ SUR L'AFFICHEUR-ROUTEUR}}$
 
 * Topic PicoMQTT : il faut rentrer le topic choisi sur le routeur F1ATB et le topic sur l’Afficheur
 doit être rempli comme ceci :  Tampon_state attention a ne pas oublier le _state (très important)
