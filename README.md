@@ -1,4 +1,4 @@
-### Afficheur pour routeur F1ATB   
+# Afficheur pour routeur F1ATB   
 
 Développer à la base pour un usage pour ceux n'ayant pas de domotique    
 
@@ -15,7 +15,7 @@ Utilisation panel : ST7789 et touch XPT2046 sur LovyangGFX pour le vrai 243S028
 
 <img width="405" height="251" alt="image" src="https://github.com/user-attachments/assets/1c9cb51f-2fc6-4583-ac8c-a385772bfaee" />    
 
-# Mise en place du firmware pour la première fois , utiliser le lien suivant   
+## Mise en place du firmware pour la première fois , utiliser le lien suivant   
 
 Attention le web installateur ne fonctionne pas avec Firefox / Safari  
 
