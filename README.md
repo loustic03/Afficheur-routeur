@@ -1,4 +1,5 @@
 ## Afficheur pour routeur F1ATB   
+
 Développer à la base pour un usage pour ceux n'ayant pas de domotique    
 
 <img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c74c5e4c-1378-43e0-a46b-b766842ff591" />  
@@ -20,7 +21,7 @@ Attention le web installateur ne fonctionne pas avec Firefox / Safari
 
 Connecter l’écran sur le PC avec un câble de bonne qualité   
 
-Page de téléchargement  
+[Téléchargement du code](https://loustic03.github.io/Afficheur-routeur)  
 
 Une page web s’ouvre de ce type  
 <img width="586" height="251" alt="image" src="https://github.com/user-attachments/assets/1f42d5de-367c-45b1-a324-696bb76a312d" />  
@@ -109,15 +110,23 @@ Il faut remplir le champ Ville en rapport avec la vôtre et par défaut affiche 
 
 ##  MQTT  
 
-Pour le MQTT, l’Afficheur routeur a son propre broker MQTT pour permettre à ceux qui n’ont pas\
-de serveur domotique type HA, Jeedom de pouvoir récupérer les infos du routeur F1ATB \
+Pour le MQTT, l’Afficheur routeur a son propre broker MQTT pour permettre à ceux qui n’ont pas
+de serveur domotique type HA, Jeedom de pouvoir récupérer les infos du routeur F1ATB 
 
-Formulaire de l’Afficheur routeur :\
+Formulaire de l’Afficheur routeur :
 
 <img width="650" height="506" alt="image" src="https://github.com/user-attachments/assets/fa1e0708-07df-46ed-93a0-6db232dd3017" />  
 
+La case en face de Activer MQTT externe est uniquement pour l’utilisation sur un Broker   
 
-                                              
+distant (domotique) donc ne doit pas être cocher pour une utilisation du Broker embarquer sur l’Afficheur.  
+
+* Serveur :  il faut rentrer l’IP du broker pour ceux qui utilise un Broker distant (domotique)
+* Port : est rentrer par défaut
+* Utilisateur :  pour broker distant si utiliser (fonction non tester)
+* Mot de passe :  pour broker distant si utiliser (fonction non tester)
+
+# $\color{red}{\textsf{Usage du BROKER EMBARQUÉ SUR L'AFFICHEUR-ROUTEUR}}$
 
 
 
