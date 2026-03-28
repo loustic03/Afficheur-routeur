@@ -93,13 +93,10 @@ Choix du routeur à afficher , la température si une sonde est présente
 
 <img width="385" height="308" alt="image" src="https://github.com/user-attachments/assets/6ae2929c-7e9d-4fb6-9a1f-1137288a85b4" />  
 
-Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge    
-
- 
+Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge  
 
 
-
-#Météo
+# Météo
 
 Il est possible d’utiliser 2 modes différent pour avoir la météo
 
