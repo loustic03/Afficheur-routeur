@@ -67,47 +67,47 @@ Rotation de l’écran\
 
 <img width="638" height="123" alt="image" src="https://github.com/user-attachments/assets/286ebac3-5075-4415-af8f-a8b1cd4ba4d4" />    
 
-Pour ESP32-2432S028  à la première mise en service, le calibrage de l’écran est demander, tant que la calibration ne sera pas faite l’écran restera noir.\
+Pour ESP32-2432S028  à la première mise en service, le calibrage de l’écran est demander, tant que la calibration ne sera pas faite l’écran restera noir.
 
   
   
 <img width="479" height="395" alt="image" src="https://github.com/user-attachments/assets/b284ba2d-1554-4361-bd6d-6dd5abba5df4" />
 
-Il est possible par la suite de lancer une calibration si besoin en touchant le tactile plus de 5 secondes.\
+Il est possible par la suite de lancer une calibration si besoin en touchant le tactile plus de 5 secondes.
 
-**Pas de calibration sur le JC2432W328**\
+**Pas de calibration sur le JC2432W328**
 
-Un lien pour la documentation depuis la page web\ 
+Un lien pour la documentation depuis la page web
 
 <img width="666" height="63" alt="image" src="https://github.com/user-attachments/assets/e4e31045-cad1-4ffb-8021-88575c1719be" />  
 
-**#Météo**\
+**#Météo**
 
-Il est possible d’utiliser 2 modes différent pour avoir la météo\
+Il est possible d’utiliser 2 modes différent pour avoir la météo
 
-1er Mode par défaut :\
+1er Mode par défaut :
 
-Utilisation : Openweathermap\
+Utilisation : Openweathermap
 
-Il faut commencer par récupérer la position GPS de vôtre lieu d’habitation, ensuite il faut obtenir une clé API depuis :\
+Il faut commencer par récupérer la position GPS de vôtre lieu d’habitation, ensuite il faut obtenir une clé API depuis 
 [openweathermap](https://openweathermap.org/api)  
 
 <img width="414" height="321" alt="image" src="https://github.com/user-attachments/assets/63655a0b-0619-41ca-b9fd-009a0676c7e5" />  
 
-et souscrire a l’API One Call API 3,0 (c’est gratuit) ensuite copier la clé pour la rentrer sur la page web de l’Afficheur routeur ainsi que les coordonner GPS et enregistrer , l’ Afficheur va redémarrer pour sauvegarder en dur.\
+et souscrire a l’API One Call API 3,0 (c’est gratuit) ensuite copier la clé pour la rentrer sur la page web de l’Afficheur routeur ainsi que les coordonner GPS et enregistrer , l’ Afficheur va redémarrer pour sauvegarder en dur.
 
 <img width="649" height="455" alt="image" src="https://github.com/user-attachments/assets/c48d2b7e-cdf2-4aca-b94c-4d55ce20e34d" />  
 
-**2e Mode utilisation de Open-météo → météofrance-api**\
+**2e Mode utilisation de Open-météo → météofrance-api**
 
-Cette API n’a pas besoin de clé API et ne remonte pas la ville en relation avec les coordonnées\ 
+Cette API n’a pas besoin de clé API et ne remonte pas la ville en relation avec les coordonnées 
 Il faut remplir le champ Ville en rapport avec la vôtre et par défaut affiche Paris  
 
 <img width="641" height="37" alt="image" src="https://github.com/user-attachments/assets/646cdca3-850f-471d-9018-6b10957f1d7c" />  
 
 
 
-##  MQTT \ 
+##  MQTT  
 
 Pour le MQTT, l’Afficheur routeur a son propre broker MQTT pour permettre à ceux qui n’ont pas\
 de serveur domotique type HA, Jeedom de pouvoir récupérer les infos du routeur F1ATB \
