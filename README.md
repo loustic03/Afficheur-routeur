@@ -80,9 +80,26 @@ Il est possible par la suite de lancer une calibration si besoin en touchant le 
 
 Un lien pour la documentation depuis la page web
 
-<img width="666" height="63" alt="image" src="https://github.com/user-attachments/assets/e4e31045-cad1-4ffb-8021-88575c1719be" />  
+<img width="666" height="63" alt="image" src="https://github.com/user-attachments/assets/e4e31045-cad1-4ffb-8021-88575c1719be" />   
 
-**#Météo**
+# Il est possible d'utiliser l'afficheur en mode déporté pour être installer sur un tableau ou autre  
+
+
+<img width="647" height="264" alt="image" src="https://github.com/user-attachments/assets/6823570a-4d4d-459e-80c8-5de7b3afdbb7" />   
+
+Choix du routeur à afficher , la température si une sonde est présente   
+
+* possibilité d'utilser un PZEM connecter sur l'afficheur et activable depuis la page Option
+
+<img width="385" height="308" alt="image" src="https://github.com/user-attachments/assets/6ae2929c-7e9d-4fb6-9a1f-1137288a85b4" />  
+
+Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge    
+
+ 
+
+
+
+#Météo
 
 Il est possible d’utiliser 2 modes différent pour avoir la météo
 
