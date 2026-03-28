@@ -1,5 +1,5 @@
 # Afficheur pour routeur F1ATB   
-
+`` toto
 Développer à la base pour un usage pour ceux n'ayant pas de domotique    
 
 <img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c74c5e4c-1378-43e0-a46b-b766842ff591" />  
@@ -167,19 +167,21 @@ $\color{red}{\textsf{************    Pour faire simple  ************}}$
 
 **Mqtt de l’afficheur :**    
 
-<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />  
+<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />    
+
 
 <img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" />  
 
 ** Mqtt externe (broker distant ou HA)**  
 
-<img width="631" height="71" alt="image" src="https://github.com/user-attachments/assets/3c355887-0769-4c3c-8950-39567a73184d" />  
+<img width="631" height="71" alt="image" src="https://github.com/user-attachments/assets/3c355887-0769-4c3c-8950-39567a73184d" />    
+
 
 <img width="859" height="67" alt="image" src="https://github.com/user-attachments/assets/83826c60-b695-44a1-9700-ca832102ca87" />  
 
 Forçage du triac :  
 
-Depuis l’écran, il suffit de glisser le doigt du bas vers le haut pour activer le forçage de 30 mm  
+Depuis l’écran, il suffit de glisser le doigt du bas vers le haut pour activer le forçage de 30 min  
 et du haut vers le bas pour arrêter le forçage   
 
 Depuis la domotique pour lancer une marche forcée de 30 min  
