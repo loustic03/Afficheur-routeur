@@ -155,7 +155,7 @@ Il n'est pas possible de télécharger cette version si la V3.04 n'est pas encor
 
 ## 3.0 - 2026-03-27  
 Version V3.06 / 07  
-- Correction bug pour utilisation PZEM sur ESP32-2432S028
+- Correction bug pour utilisation PZEM sur ESP32-2432S028 (passage en V3.07 si utilisation d'un ESP32-2432S028)
 - Correction topic et payload pour info photovoltaique depuis MQTT extern
 - Modification de la méthode de téléchargement des firmware depuis github
 - Correction bug pour le programmateur sur écran déporté 
