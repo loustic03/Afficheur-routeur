@@ -335,7 +335,8 @@ Permet le choix de la sonde de température pour le ballon
 Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en choix)    
 
 
-<img width="649" height="412" alt="image" src="https://github.com/user-attachments/assets/411b5db8-7d61-49a3-8f88-cb10eb2043e4" />    
+<img width="649" height="412" alt="image" src="https://github.com/user-attachments/assets/411b5db8-7d61-49a3-8f88-cb10eb2043e4" />   
+
 
 <img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/703b914b-9f35-43b4-ada4-041b739eb021" />    
 
