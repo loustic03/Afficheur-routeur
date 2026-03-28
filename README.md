@@ -180,7 +180,7 @@ JSY /Shelly EM remonte le tore 2 du JSY ou le canal 1 du shelly EM  en ligne 4
 
 
 
-**##* Page PARAMETRES  
+## Page PARAMETRES  
 
 <img width="646" height="74" alt="image" src="https://github.com/user-attachments/assets/e29fc8ed-ecc4-4528-b990-380ad0ecca30" />  
 
@@ -198,15 +198,108 @@ Température 5 canal 0 routeur esclave 2
 Température 6 canal 1 routeur esclave 2  
 
 
+# Paramètre Gestion afficheur  
+
+. Extinction auto, si la case est cocher l’écran s’éteint après 5 minutes si l’écran n’est pas toucher  
+. Activer capteur IR, permet à l’écran de s’allumer sur présence et extinction après 5 minute  
+    Le capteur IR n’est pas activer par défaut.  
+
+. Affiche tempo, cocher la case pour remonter les couleurs tempo depuis le F1ATB  
+
+. TempoRte, cocher permet d’avoir l’info TempoRte intégrer sur l’afficheur  
+
+. Enphase, cocher la case si le routeur maître est connecter à l’Enphase Envoy  
+
+. Ventilateur, cocher la case si utilisation d’un ventilateur de refroidissement sur le relais 1 du F1ATB  
+
+# OpenDtu  
+
+Pour ceux qui ont OpenDtu   
+
+Activer OpenDtu et rentrer L’IP de vôtre OpenDtu et enregistrer,  l’esp va rebooter.  
+La puissance afficher sera < la production > sur la 2e ligne de l’afficheur   
+
+Tempo (ms) permet d’augmenter le temps de demande d’info sur OpenDtu  
+
+* paramètres d’affichage écran  
+
+Permet de renommer les 4 lignes de l’écran.  
+nombre de caractère par ligne :  
+
+<img width="652" height="331" alt="image" src="https://github.com/user-attachments/assets/505f465a-d12a-4c44-9316-6b65e9dfa2b2" />  
 
 
+1er ligne : 14 caractères  
+Consommation   
+
+2e ligne : 11 caractères  
+Tension ou production  
+
+3e ligne : 9 caractères  
+Ouverture Triac ou SSR    
+
+4e ligne : 17 caractères  
+Puissance routée  
 
 
+# Vigilance Météo  
+
+Il suffit de renseigner le département et enregistrer.  
+La vigilance sera afficher dans la zone de la météo et informe juste de l’état vigilance du département.  
+
+Cette info provient de :[Vigiscript]( https://www.vigiscript.fr)  
+
+# Programme journalier écran  
+
+Il est activable ou non si pas de besoin  
+Permet de pouvoir exemple sur Prog1 allumer l’écran à partir de 5h30 jusqu’à 9h00   
+en prog2 de 9h00 a 11h30 afficher l’horloge et idem pour les autres prog3 et 4  
+Si dans ex : prog3  rien n’est rentrer l’afficheur tiendra compte du prog2  
+
+<img width="647" height="859" alt="image" src="https://github.com/user-attachments/assets/96643415-f7a9-46c4-83b5-906cb30d7eb4" /> 
+
+Sur le bouton info cela ouvre une popup d’info  
+<img width="402" height="354" alt="image" src="https://github.com/user-attachments/assets/8308a0da-002b-438d-97e3-72d72021e68a" />    
+
+**Téléchargement de la configuration de l’afficheur en fichier JSON et possibilité de restaurer la configuration de l’afficheur**  
+
+<img width="636" height="219" alt="image" src="https://github.com/user-attachments/assets/9246c77c-93c9-4d66-bc6d-879fe7cc991d" />  
+
+Possibilité de téléchargé le bin depuis github  
+
+<img width="641" height="196" alt="image" src="https://github.com/user-attachments/assets/dd7bec5f-916d-4011-b94c-8cc6e4c8118b" />  
 
 
+Le moyen de voir les infos JSON qui arrive des F1ATB sur une page  LOG :  
 
+<img width="1876" height="568" alt="image" src="https://github.com/user-attachments/assets/5e721587-5c0c-478f-a623-ef2296fa0730" />  
 
+Un bouton de Mise à jour du Firmware pour les futures évolutions, la page s’ouvre directement depuis la page web et propose la liste des firmwares disponible.  
 
+Si une nouvelle version est dispo un badge de nouvelle mise à jour s’affiche sur la page web d’accueil   
+
+<img width="280" height="189" alt="image" src="https://github.com/user-attachments/assets/11b40e0a-ae3f-4f2b-9054-46645b3ff2e9" />  
+
+Lors de la mise à jour il faut bien attendre que l’Afficheur redémarre car l’afficheur télécharge le firmware.bin directement de lui même (la mise a jour est indiquer sur l’écran pendant le téléchargement)  
+
+Le bouton CHANGELOG permet de voir les corrections de bug ou ajout de fonction  
+
+** Reset usine , efface toutes les paramétrés et l’esp redémarre**
+
+Il sera en mode AP attente de connexion au wifi   
+
+<img width="307" height="139" alt="image" src="https://github.com/user-attachments/assets/deaae7b1-4e4e-499d-969d-edd47872e718" />  
+
+### Résumé du comportement du programmateur horaire (selon options)
+
+### Résumé du comportement du programmateur horaire (selon options)
+
+| Option PIR    | Prog activé | Écran éteint | Comment ça s’allume ? | Comment ça s’éteint ?           |
+| :------------ | :---------: | :---------: | :-------------------- | :------------------------------ |
+| **Désactivé** | Oui         | Oui         | Touch uniquement      | Après 5 min (inactivité touch)  |
+| **Activé** | Oui         | Oui         | Touch ou PIR          | Après 5 min (touch ou PIR)      |
+| **Désactivé** | Non         | Oui         | Touch uniquement      | Après 5 min                     |
+| **Activé** | Non         | Oui         | Touch ou PIR          | Après 5 min (touch ou PIR)      |
 
 
 
