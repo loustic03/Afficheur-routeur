@@ -23,16 +23,19 @@ Connecter l’écran sur le PC avec un câble de bonne qualité
 
 [Téléchargement du code](https://loustic03.github.io/Afficheur-routeur)  
 
-Une page web s’ouvre de ce type  
+Une page web s’ouvre de ce type   
+
 <img width="586" height="251" alt="image" src="https://github.com/user-attachments/assets/1f42d5de-367c-45b1-a324-696bb76a312d" />  
 
 Ensuite cliquer sur le bouton Connect , une fenêtre s’ouvre et cliquer sur le port indiquer dans la fenêtre   
 
-<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" />    
+<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" />   
+
 
 Ensuite un clic sur connecté et une fenêtre s’ouvre pour pouvoir télécharger le firmware  
 
-<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" />    
+<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" />   
+
 
 Attention il faut tenir appuyer le bouton Boot qui ce trouve derrière l’écran avant de cliquer sur  
 **Install Afficheur routeur** quand le téléchargement commence le bouton boot peut-être relâcher  
@@ -147,17 +150,21 @@ doit être rempli comme ceci :  Tampon_state attention a ne pas oublier le _sta
 
 <img width="984" height="343" alt="image" src="https://github.com/user-attachments/assets/44327772-4793-4c86-8309-6dd794247f08" />   
 
+
 Dans Adresse IP Host rentrer l’adresse IP de l’afficheur   
-Comment doit être inscrit le topic sur l’afficheur   
+Comment doit être inscrit le topic sur l’afficheur     
+
 <img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/64030f87-1a30-4af4-be9a-ca63ffe4eb6d" />    
 
 $\color{red}{\textsf{Usage du Broker distant (domotique)}}$  
 
 * Topic extenre subscribe : doit être rempli comme ceci : Tampon/#
 * Topic externe exact : doit être rempli comme ceci : Tampon/Tampon_state
+  
 <img width="995" height="346" alt="image" src="https://github.com/user-attachments/assets/3f7706b9-9721-4604-b5f5-1ad7faf88a4e" />
 
-**Sur l‘afficheur rentrer dans serveur IP du broker distant**  
+**Sur l‘afficheur rentrer dans serveur IP du broker distant**    
+
 <img width="641" height="83" alt="image" src="https://github.com/user-attachments/assets/a656f808-dfc0-4dd7-b0c1-240803987f6e" />  
 
 **Possibilité de recevoir les infos d’un routeur F1ATB esclave.**  
@@ -276,7 +283,8 @@ Si dans ex : prog3  rien n’est rentrer l’afficheur tiendra compte du prog2
 
 <img width="647" height="859" alt="image" src="https://github.com/user-attachments/assets/96643415-f7a9-46c4-83b5-906cb30d7eb4" /> 
 
-Sur le bouton info cela ouvre une popup d’info  
+Sur le bouton info cela ouvre une popup d’info   
+
 <img width="402" height="354" alt="image" src="https://github.com/user-attachments/assets/8308a0da-002b-438d-97e3-72d72021e68a" />    
 
 **Téléchargement de la configuration de l’afficheur en fichier JSON et possibilité de restaurer la configuration de l’afficheur**  
@@ -322,6 +330,7 @@ Il sera en mode AP attente de connexion au wifi
 ### OPTIONS DIVERS  
 
 * Possibilité de changer de fuseau horaire
+* 
 <img width="652" height="188" alt="image" src="https://github.com/user-attachments/assets/2a16f81c-e1f2-4eaa-8e6b-8947a7f5de9a" />
 
 # MQTT DOMOTIQUE  
@@ -333,9 +342,11 @@ Il sera en mode AP attente de connexion au wifi
   <img width="648" height="261" alt="image" src="https://github.com/user-attachments/assets/6e3ddf70-b632-40d5-820f-95a9ed15d015" />
 
 Exemple d'envoi depuis JEEDOM pour ma part   
+
 <img width="1585" height="144" alt="image" src="https://github.com/user-attachments/assets/bb8b435a-97ce-47bf-8469-98156e922a6b" />  
 
-* La production photovoltaïque, idem pour les infos à rentrer en MQTT depuis la domotique
+* La production photovoltaïque, idem pour les infos à rentrer en MQTT depuis la domotique   
+
   <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
   
 * Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
