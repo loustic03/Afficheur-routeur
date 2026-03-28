@@ -24,14 +24,17 @@ Page de téléchargement
 
 Une page web s’ouvre de ce type  
 <img width="586" height="251" alt="image" src="https://github.com/user-attachments/assets/1f42d5de-367c-45b1-a324-696bb76a312d" />  
+
 Ensuite cliquer sur le bouton Connect , une fenêtre s’ouvre et cliquer sur le port indiquer dans la fenêtre   
 
-<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" />  
+<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" />    
+
 Ensuite un clic sur connecté et une fenêtre s’ouvre pour pouvoir télécharger le firmware  
 
-<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" />  
+<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" />    
+
 Attention il faut tenir appuyer le bouton Boot qui ce trouve derrière l’écran avant de cliquer sur  
-**Install Afficheur routeur** quand le téléchargement commence le bouton boot peut-être relâcher  ù
+**Install Afficheur routeur** quand le téléchargement commence le bouton boot peut-être relâcher  
 
 une fois le téléchargement fini, une fenêtre s’ouvre pour avertir de la fin de l’Upload  
 
