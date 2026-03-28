@@ -360,32 +360,26 @@ Mise en place de Telegram sur le téléphone :
 
 Pour que votre appareil puisse vous envoyer des notifications, vous devez récupérer deux informations essentielles : le Jeton (Token) et votre ID Utilisateur.  
 
-1. **Création du Bot (Obtenir le Token)**     
-Le "BotFather" est l'outil officiel de Telegram pour créer des bots.  
-    1. Ouvrez Telegram et recherchez le contact @BotFather.  
-    2. Cliquez sur Démarrer.  
-    3. Envoyez la commande : /newbot.  
-    4. Suivez les instructions :  
-        ◦ Donnez un Nom à votre bot (ex: Mon Alerte ESP32).  
-        ◦ Choisissez un Username (doit se terminer par bot, ex: alerte_maison_123_bot).  
-    5. Copiez le Token API qui s'affiche (ex: 7123456789:AAF...). C'est ce code que vous devrez coller dans la page de configuration de votre appareil.  
+1. **Création du Bot (Obtenir le Token)** Le "BotFather" est l'outil officiel de Telegram pour créer des bots.  
+   1. Ouvrez Telegram et recherchez le contact `@BotFather`.  
+   2. Cliquez sur **Démarrer**.  
+   3. Envoyez la commande : `/newbot`.  
+   4. Suivez les instructions :  
+      * Donnez un **Nom** à votre bot (ex: Mon Alerte ESP32).  
+      * Choisissez un **Username** (doit se terminer par `bot`, ex: `alerte_maison_123_bot`).  
+   5. Copiez le **Token API** qui s'affiche. C'est ce code que vous devrez coller dans la page de configuration.
 
-2. **Récupérer votre ID Utilisateur (Chat ID)**     
-L'ID est un numéro unique qui permet au bot de savoir à qui envoyer les messages. Pour des raisons de sécurité, un bot ne peut pas vous parler si vous ne l'avez pas "autorisé" d'abord.  
-    1. Recherchez votre propre bot sur Telegram (via l'Username que vous venez de créer).  
-    2. Cliquez sur Démarrer ou envoyez-lui n'importe quel message.  
-    3. Recherchez maintenant le contact @userinfobot.  
-    4. Cliquez sur Démarrer.  
-    5. Le bot vous répond avec votre Id (une suite de 9 ou 10 chiffres). Notez ce numéro.  
+2. **Récupérer votre ID Utilisateur (Chat ID)** L'ID est un numéro unique qui permet au bot de savoir à qui envoyer les messages.  
+   1. Recherchez votre propre bot sur Telegram via son Username.  
+   2. Cliquez sur **Démarrer**.  
+   3. Recherchez le contact `@userinfobot`.  
+   4. Cliquez sur **Démarrer**.  
+   5. Notez l'ID numérique (9 ou 10 chiffres) envoyé par le bot.
 
- 3. **Configuration de l'appareil**      
-Une fois ces deux éléments en main :  
-    1. Connectez-vous à l'interface web de l’afficheur dans la page Option  
-    2. Remplissez les champs :  
-        ◦ Bot Token : Collez le jeton du BotFather.  
-        ◦ Chat ID : Collez votre ID numérique.  
-    3. Enregistrez.  
-    4. Depuis telegram sur le bot créer envoyer /status et le bot recevra les commandes disponible, ce sont les même pour l’envoi de commande MQTT  
+3. **Configuration de l'appareil** 1. Connectez-vous à l'interface web de l’afficheur (page Option).  
+   2. Remplissez les champs **Bot Token** et **Chat ID**.  
+   3. Enregistrez.  
+   4. Envoyez `/status` à votre bot pour recevoir les commandes disponibles (identiques aux commandes MQTT).
        
    <img width="150" height="178" alt="image" src="https://github.com/user-attachments/assets/5067d5e2-c283-4db3-a267-694d0de92c10" />  
    
