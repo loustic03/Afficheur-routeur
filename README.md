@@ -1,5 +1,5 @@
 # Afficheur pour routeur F1ATB   
-<!-- toto -->
+
 Développer à la base pour un usage pour ceux n'ayant pas de domotique    
 
 <img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c74c5e4c-1378-43e0-a46b-b766842ff591" />  
@@ -64,7 +64,7 @@ Par défaut le code démarre pour le JC2432W328 , si utilisation d’un  ESP32-2
 
 Et l’écran sera rebooter pour modifier les para de l’écran    
 
-Rotation de l’écran\  
+Rotation de l’écran 
 
 <img width="638" height="123" alt="image" src="https://github.com/user-attachments/assets/286ebac3-5075-4415-af8f-a8b1cd4ba4d4" />    
 
@@ -95,7 +95,7 @@ Choix du routeur à afficher , la température si une sonde est présente
 
 Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge  
 
-
+<!-- PAGE METEO      -->
 # Météo
 
 Il est possible d’utiliser 2 modes différent pour avoir la météo
@@ -265,7 +265,7 @@ Puissance routée
 Il suffit de renseigner le département et enregistrer.  
 La vigilance sera afficher dans la zone de la météo et informe juste de l’état vigilance du département.  
 
-Cette info provient de :[Vigiscript]( https://www.vigiscript.fr)  
+Cette info provient de : [Vigiscript]( https://www.vigiscript.fr)  
 
 # Programme journalier écran  
 
