@@ -361,25 +361,25 @@ Mise en place de Telegram sur le téléphone :
 Pour que votre appareil puisse vous envoyer des notifications, vous devez récupérer deux informations essentielles : le Jeton (Token) et votre ID Utilisateur.  
 
 1. **Création du Bot (Obtenir le Token)** Le "BotFather" est l'outil officiel de Telegram pour créer des bots.  
-   1. Ouvrez Telegram et recherchez le contact `@BotFather`.  
-   2. Cliquez sur **Démarrer**.  
-   3. Envoyez la commande : `/newbot`.  
-   4. Suivez les instructions :  
+   * Ouvrez Telegram et recherchez le contact `@BotFather`.  
+   * Cliquez sur **Démarrer**.  
+   * Envoyez la commande : `/newbot`.  
+   * Suivez les instructions :  
       * Donnez un **Nom** à votre bot (ex: Mon Alerte ESP32).  
       * Choisissez un **Username** (doit se terminer par `bot`, ex: `alerte_maison_123_bot`).  
-   5. Copiez le **Token API** qui s'affiche. C'est ce code que vous devrez coller dans la page de configuration.
+   * Copiez le **Token API** qui s'affiche. C'est ce code que vous devrez coller dans la page de configuration.
 
 2. **Récupérer votre ID Utilisateur (Chat ID)** L'ID est un numéro unique qui permet au bot de savoir à qui envoyer les messages.  
-   1. Recherchez votre propre bot sur Telegram via son Username.  
-   2. Cliquez sur **Démarrer**.  
-   3. Recherchez le contact `@userinfobot`.  
-   4. Cliquez sur **Démarrer**.  
-   5. Notez l'ID numérique (9 ou 10 chiffres) envoyé par le bot.
+   * Recherchez votre propre bot sur Telegram via son Username.  
+   * Cliquez sur **Démarrer**.  
+   * Recherchez le contact `@userinfobot`.  
+   * Cliquez sur **Démarrer**.  
+   * Notez l'ID numérique (9 ou 10 chiffres) envoyé par le bot.
 
 3. **Configuration de l'appareil** 1. Connectez-vous à l'interface web de l’afficheur (page Option).  
-   2. Remplissez les champs **Bot Token** et **Chat ID**.  
-   3. Enregistrez.  
-   4. Envoyez `/status` à votre bot pour recevoir les commandes disponibles (identiques aux commandes MQTT).
+   * Remplissez les champs **Bot Token** et **Chat ID**.  
+   * Enregistrez.  
+   * Envoyez `/status` à votre bot pour recevoir les commandes disponibles (identiques aux commandes MQTT).
        
    <img width="150" height="178" alt="image" src="https://github.com/user-attachments/assets/5067d5e2-c283-4db3-a267-694d0de92c10" />  
    
