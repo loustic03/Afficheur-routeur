@@ -163,8 +163,10 @@ $\color{red}{\textsf{Usage du Broker distant (domotique)}}$
 **Possibilité de recevoir les infos d’un routeur F1ATB esclave.**  
 Il suffit de cocher la case Activer Routeur n°2 et remplir le formulaire des topics en fonction si broker de l’afficheur ou broker distant mais différent du routeur maître.  
 
-$\color{red}{\textsf{************    Pour faire simple  ************}}$
-**Mqtt de l’afficheur :**  
+$\color{red}{\textsf{************    Pour faire simple  ************}}$  
+
+**Mqtt de l’afficheur :**    
+
 <img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />  
 
 <img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" />  
