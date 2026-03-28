@@ -61,10 +61,10 @@ Par défaut le code démarre pour le JC2432W328 , si utilisation d’un  ESP32-2
 
 <img width="656" height="336" alt="image" src="https://github.com/user-attachments/assets/df317215-55c8-4383-9f4d-0b9010a4ccc0" />  
 
-Et l’écran sera rebooter pour modifier les para de l’écran  
+Et l’écran sera rebooter pour modifier les para de l’écran   
 
 
 
 
 
-[Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf](https://github.com/user-attachments/files/24996416/Tuto-mise-en-place-tactile-Afficheur-pour-F1atb.pdf)
+
