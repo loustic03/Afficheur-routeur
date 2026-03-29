@@ -167,7 +167,7 @@ Version V3.08
 - Modification de l'intitulé pour les fonctions PZEM écran déporté
 - Correction pour le téléchargement du bin depuis le PC (problème de watchdog)
 - Suppression de l'activation de la vigilance par défaut (car en mode déporté elle s'affiche sur la jauge)
-- Modification pour la réception du topic production phovoltaique (problème avec domoticz)  
+- Modification pour la réception du topic production photovoltaïque (problème avec domoticz)  
  
 
  
