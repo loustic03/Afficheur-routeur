@@ -160,7 +160,18 @@ Version V3.06 / 07
 - Modification de la méthode de téléchargement des firmware depuis github
 - Correction bug pour le programmateur sur écran déporté 
 
+## 3.0 - 2026-03-29  
+Version V3.08  
+- Alternative de choix entre un PZEM connecté sur l'afficheur ou reception de l'info depuis MQTT extern
+- Modification pour l'info puissance routé sur le mode afficheur déporté
+- Modification de l'intitulé pour les fonctions PZEM écran déporté
+- Correction pour le téléchargement du bin depuis le PC (problème de watchdog)
+- Suppression de l'activation de la vigilance par défaut (car en mode déporté elle s'affiche sur la jauge)
+- Modification pour la réception du topic production phovoltaique (cause domoticz)  
+ 
 
+ 
+ 
 
 
 
