@@ -235,7 +235,18 @@ Température 6 canal 1 routeur esclave 2
 
 . Enphase, cocher la case si le routeur maître est connecter à l’Enphase Envoy  
 
-. Ventilateur, cocher la case si utilisation d’un ventilateur de refroidissement sur le relais 1 du F1ATB  
+. Ventilateur, cocher la case si utilisation d’un ventilateur de refroidissement sur le relais 1 du F1ATB   
+
+* Raccordement du capteur PIR sur le PIN 35
+  | ESP         | Capteur PIR  |
+  | :---------- | :----------- |
+  | 3.3V ou 5V  |     VIN      |
+  | PIN 35      |     OUT      |
+  | GND         |     GND      |
+
+  <img width="383" height="408" alt="image" src="https://github.com/user-attachments/assets/be02d0b3-87c7-47d3-a9b5-b3739b503a5d" />
+  
+
 
 # OpenDtu  
 
