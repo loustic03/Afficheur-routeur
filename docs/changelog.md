@@ -169,7 +169,13 @@ Version V3.08
 - Suppression de l'activation de la vigilance par défaut (car en mode déporté elle s'affiche sur la jauge)
 - Modification pour la réception du topic production photovoltaïque (problème avec domoticz)  
  
-
+## 3.0 - 2026-03-31  
+Version V3.09  
+- Ajout de possibilité réglage du temps avant mise en vielle de l'afficheur entre 1 min et 15 min
+- Modification de la page web paramètre et rajout d'un popup dans le champ Gestion afficheur avec le réglage de la mise en veille
+- Ajout d'un téléchargement de la confiration de l'écran en fichier texte
+- Préparation dans le code pour l'intégration d'un JSY 194 T
+  
  
  
 
