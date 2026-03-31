@@ -184,9 +184,11 @@ $\color{red}{\textsf{************    Pour faire simple  ************}}$
 <img width="631" height="71" alt="image" src="https://github.com/user-attachments/assets/3c355887-0769-4c3c-8950-39567a73184d" />    
 
 
-<img width="859" height="67" alt="image" src="https://github.com/user-attachments/assets/83826c60-b695-44a1-9700-ca832102ca87" />  
+<img width="859" height="67" alt="image" src="https://github.com/user-attachments/assets/83826c60-b695-44a1-9700-ca832102ca87" />    
 
-Forçage du triac :  
+
+##  Forçage du triac   
+
 
 Depuis l’écran, il suffit de glisser le doigt du bas vers le haut pour activer le forçage de 30 min  
 et du haut vers le bas pour arrêter le forçage   
@@ -246,16 +248,7 @@ Température 6 canal 1 routeur esclave 2
 
   <img width="383" height="408" alt="image" src="https://github.com/user-attachments/assets/be02d0b3-87c7-47d3-a9b5-b3739b503a5d" />
   
-
-
-# OpenDtu  
-
-Pour ceux qui ont OpenDtu   
-
-Activer OpenDtu et rentrer L’IP de vôtre OpenDtu et enregistrer,  l’esp va rebooter.  
-La puissance afficher sera < la production > sur la 2e ligne de l’afficheur   
-
-Tempo (ms) permet d’augmenter le temps de demande d’info sur OpenDtu  
+# labels d'affichage écran 
 
 * paramètres d’affichage écran  
 
@@ -275,9 +268,19 @@ Tension ou production
 Ouverture Triac ou SSR    
 
 4e ligne : 17 caractères  
-Puissance routée  
+Puissance routée 
 
 
+# OpenDtu  
+
+Pour ceux qui ont OpenDtu   
+
+Activer OpenDtu et rentrer L’IP de vôtre OpenDtu et enregistrer,  l’esp va rebooter.  
+La puissance afficher sera < la production > sur la 2e ligne de l’afficheur   
+
+Tempo (ms) permet d’augmenter le temps de demande d’info sur OpenDtu  
+
+  
 # Vigilance Météo  
 
 Il suffit de renseigner le département et enregistrer.  
@@ -296,11 +299,17 @@ Si dans ex : prog3  rien n’est rentrer l’afficheur tiendra compte du prog2
 
 Sur le bouton info cela ouvre une popup d’info   
 
-<img width="402" height="354" alt="image" src="https://github.com/user-attachments/assets/8308a0da-002b-438d-97e3-72d72021e68a" />    
+<img width="402" height="354" alt="image" src="https://github.com/user-attachments/assets/8308a0da-002b-438d-97e3-72d72021e68a" />   
+
+## Sauvegarde & Restauration  
 
 **Téléchargement de la configuration de l’afficheur en fichier JSON et possibilité de restaurer la configuration de l’afficheur**  
 
-<img width="636" height="219" alt="image" src="https://github.com/user-attachments/assets/9246c77c-93c9-4d66-bc6d-879fe7cc991d" />  
+<img width="646" height="145" alt="image" src="https://github.com/user-attachments/assets/af38f043-c4af-4b36-952c-07559b1a06df" />  
+
+Il est possible de télécharger la configuration en JSON pour sauvegarder et la configuration en fichier texte pour avoir un mémo des paramètre  
+de l'afficheur  
+  
 
 Possibilité de téléchargé le bin depuis github  
 
