@@ -391,7 +391,11 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
 
 * Depuis le programmateur si mis en : Energie Live
 
-<img width="600" height="478" alt="20260405_185809" src="https://github.com/user-attachments/assets/13009015-515d-47bf-adfe-a6428e748a1a" />
+<img width="600" height="478" alt="20260405_185809" src="https://github.com/user-attachments/assets/13009015-515d-47bf-adfe-a6428e748a1a" />  
+
+
+<img width="600" height="458" alt="20260405_185741" src="https://github.com/user-attachments/assets/3f7e5cf5-2219-4a2d-8044-f7970a562244" />  
+
 
 ### Telegram  
 
