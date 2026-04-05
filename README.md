@@ -398,9 +398,9 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
 
 <img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/703b914b-9f35-43b4-ada4-041b739eb021" />    
 
-## Gestion routage afficheur déporté 
+# Gestion routage afficheur déporté 
 
-# Il est possible de brancher un PZEM sur l'afficheur  
+## Il est possible de brancher un PZEM sur l'afficheur  
 * Raccordement le TX du PZEM sur la PIN 22
 * RX PZEM pour le modèle d'esp32 JC2432W328 sur la PIN 21 et pour l'esp32 ESP32-2432S028 sur la PIN 27 (la PIN 21 étant utiliser pour le rétroéclairage)
 * JSY n'est pour l'instant pas fonctionnel
@@ -408,7 +408,7 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
   remplir dans la page MQTT domotique → Routage global
 * Puissance max PZEM , permet d'indiquer la puissance max de la résistance du chauffe eau et permet d'ajuster la barre d'info en bas de l'écran
 
-PUISSANCE PICOMQTT DISTANT   
+##  PUISSANCE PICOMQTT DISTANT   
 * Utilisation si 1 PZEM et utiliser sur un afficheur à demeurre (en tableau) et permet de remonter l'info sur un afficheur distant
 * Non de l'afficheur source : remplir avec le non de l'afficheur équiper du PZEM
   <img width="648" height="523" alt="image" src="https://github.com/user-attachments/assets/4bc77a94-a810-41b8-abcf-8c878ec23e47" />
@@ -424,7 +424,7 @@ PUISSANCE PICOMQTT DISTANT
 <img width="600" height="458" alt="20260405_185741" src="https://github.com/user-attachments/assets/3f7e5cf5-2219-4a2d-8044-f7970a562244" />  
 
 
-### Telegram  
+# Telegram  
 
 Il est possible d’utiliser la messagerie Telegram sur l’afficheur et les commandes seront transmisse au routeur par le biais de MQTT.  
 
