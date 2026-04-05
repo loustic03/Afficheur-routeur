@@ -370,10 +370,9 @@ Exemple d'envoi depuis JEEDOM pour ma part
   <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
   
 * Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
+  
  
-  <img width="656" height="325" alt="image" src="https://github.com/user-attachments/assets/18f343f5-618b-470c-8e83-cc169f7975a0" />
-
-  <img width="272" height="220" alt="image" src="https://github.com/user-attachments/assets/67f12c76-ca03-425e-8f60-b7b94c441ef5" />
+<img width="600" height="467" alt="charge" src="https://github.com/user-attachments/assets/a7591787-a9a3-4ba3-8587-78a635cea1de" />
 
   
 ## Bargraphe & Radiateur   
@@ -382,10 +381,6 @@ Permet d'afficher un icon ballon d'eau chaude et à côté un radiateur (si util
 
 Permet le choix de la sonde de température pour le ballon  
 Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en choix)    
-
-
-<img width="600" height="467" alt="charge" src="https://github.com/user-attachments/assets/8ef42d67-2ef8-4d89-b01b-90f0bc006ec7" />
-
 
 <img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/703b914b-9f35-43b4-ada4-041b739eb021" />    
 
