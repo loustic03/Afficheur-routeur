@@ -370,6 +370,8 @@ Exemple d'envoi depuis JEEDOM pour ma part
   <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
   
 * Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
+
+  
   <img width="643" height="329" alt="image" src="https://github.com/user-attachments/assets/4615823c-2510-49e6-8cab-bcfde6204625" />
 
 * Activer la batterie est ce qui permet d'afficher la batterie
