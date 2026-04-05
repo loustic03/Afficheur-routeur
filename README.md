@@ -370,7 +370,19 @@ Exemple d'envoi depuis JEEDOM pour ma part
   <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
   
 * Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
+  <img width="643" height="329" alt="image" src="https://github.com/user-attachments/assets/4615823c-2510-49e6-8cab-bcfde6204625" />
+
+* Activer la batterie est ce qui permet d'afficher la batterie
+* Activer la charge 
+* Topic Batterie est l'info du % de charge
+  <img width="1206" height="112" alt="image" src="https://github.com/user-attachments/assets/0d9567f8-f7dd-457f-a46d-03d752bd42d1" />
+* Topic charge : Est un interrupteur donc l'info doit être on ou off
+  <img width="1232" height="215" alt="image" src="https://github.com/user-attachments/assets/ed752039-2d53-42e3-a2c5-d6ee6d2ea887" />
+* Topic Puissance remonte l'info de la puissance en watt de la batterrie
+  exemple , mon info pour simuler la puissance
+  <img width="1257" height="106" alt="image" src="https://github.com/user-attachments/assets/b7bef9b9-aa00-4a40-a42c-e30772d29ae7" />
   
+* Exemple sur l'afficheur 
  
 <img width="600" height="467" alt="charge" src="https://github.com/user-attachments/assets/a7591787-a9a3-4ba3-8587-78a635cea1de" />
 
@@ -384,7 +396,20 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
 
 <img width="170" height="112" alt="image" src="https://github.com/user-attachments/assets/703b914b-9f35-43b4-ada4-041b739eb021" />    
 
+## Gestion routage afficheur déporté 
 
+# Il est possible de brancher un PZEM sur l'afficheur  
+* Raccordement le TX du PZEM sur la PIN 22
+* RX PZEM pour le modèle d'esp32 JC2432W328 sur la PIN 21 et pour l'esp32 ESP32-2432S028 sur la PIN 27 (la PIN 21 étant utiliser pour le rétroéclairage)
+* JSY n'est pour l'instant pas fonctionnel
+* Utilisation de puissance externe MQTT permet si pas de PZEM de pouvoir utiliser une info de puissance utiliser pour le routage et le topic sera à
+  remplir dans la page MQTT domotique → Routage global
+* Puissance max PZEM , permet d'indiquer la puissance max de la résistance du chauffe eau et permet d'ajuster la barre d'info en bas de l'écran
+
+PUISSANCE PICOMQTT DISTANT   
+* Utilisation si 1 PZEM et utiliser sur un afficheur à demeurre (en tableau) et permet de remonter l'info sur un afficheur distant
+* Non de l'afficheur source : remplir avec le non de l'afficheur équiper du PZEM
+  <img width="648" height="523" alt="image" src="https://github.com/user-attachments/assets/4bc77a94-a810-41b8-abcf-8c878ec23e47" />
 
 
 ## Autre option   
