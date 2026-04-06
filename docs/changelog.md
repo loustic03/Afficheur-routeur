@@ -176,7 +176,14 @@ Version V3.09
 - Ajout d'un téléchargement de la confiration de l'écran en fichier texte
 - Préparation dans le code pour l'intégration d'un JSY 194 T
   
- 
+## 4.0 -2026-04-06  
+Version V4.00  
+- Amélioration de l'affichage après changement de page si utilisation de la batterie
+- Correction bug pour l'extinction pour écran ESP32-2432S028R avec l'usage du capteur PIR
+- Modification de la fonction pour utilisation avec PicoMQTT avec ajout sur la page web
+- Ajout du stockage sur 7 jours de l'énergie journalière du PZEM (encore en test)
+- Possibilité de télécharger en fichier texte l'énergie du PZEM
+- Ajout d'un bouton README qui renvoi sur le github depuis la page web accueil
  
 
 
