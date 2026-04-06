@@ -407,6 +407,15 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
 * Utilisation de puissance externe MQTT permet si pas de PZEM de pouvoir utiliser une info de puissance utiliser pour le routage et le topic sera à
   remplir dans la page MQTT domotique → Routage global
 * Puissance max PZEM , permet d'indiquer la puissance max de la résistance du chauffe eau et permet d'ajuster la barre d'info en bas de l'écran
+* Il est possible de télécharger en fichier texte de l'énergie jour sur une période de 7 jours depuis la page paramètre [ Energie PZEM ]
+  <img width="636" height="229" alt="image" src="https://github.com/user-attachments/assets/3c97b9aa-c79f-48a1-bc4e-651ad1abe56d" />
+
+* Visuel sur la page web LIVE
+
+  
+  <img width="631" height="123" alt="image" src="https://github.com/user-attachments/assets/76015e17-318a-40a8-9974-d94459786275" />
+  
+
 
 ##  PUISSANCE PICOMQTT DISTANT   
 * Utilisation si 1 PZEM et utiliser sur un afficheur à demeurre (en tableau) et permet de remonter l'info sur un afficheur distant
