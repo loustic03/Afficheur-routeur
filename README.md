@@ -408,6 +408,8 @@ Pour le radiateur le choix du routeur esclave (possibilité de max 2 esclave en 
   remplir dans la page MQTT domotique → Routage global
 * Puissance max PZEM , permet d'indiquer la puissance max de la résistance du chauffe eau et permet d'ajuster la barre d'info en bas de l'écran
 * Il est possible de télécharger en fichier texte de l'énergie jour sur une période de 7 jours depuis la page paramètre [ Energie PZEM ]
+
+  
   <img width="636" height="229" alt="image" src="https://github.com/user-attachments/assets/3c97b9aa-c79f-48a1-bc4e-651ad1abe56d" />
 
 * Visuel sur la page web LIVE
