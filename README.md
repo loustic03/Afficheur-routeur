@@ -307,7 +307,7 @@ Sur le bouton info cela ouvre une popup d’info
 
 <img width="646" height="145" alt="image" src="https://github.com/user-attachments/assets/af38f043-c4af-4b36-952c-07559b1a06df" />  
 
-Il est possible de télécharger la configuration en JSON pour sauvegarder et la configuration en fichier texte pour avoir un mémo des paramètre  
+Il est possible de télécharger la configuration en JSON pour sauvegarder et la configuration en fichier texte pour avoir un mémo des paramètres  
 de l'afficheur  
   
 
