@@ -462,8 +462,12 @@ la commande /info renvoi sur le bot
 <img width="195" height="239" alt="image" src="https://github.com/user-attachments/assets/d8133b55-20d2-45ad-9f3e-40fda693154c" />  
 
 
+# Montage sur son support  
 
+![afficheur sur pied](https://github.com/user-attachments/assets/0011f7b2-7659-43d1-ba03-97c5b0361691)
 
+## Fichier STL dispo   
+https://makerworld.com/fr/models/1292242-support-tactile-esp32
 
 
 
