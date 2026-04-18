@@ -2,12 +2,12 @@
 
 Développer à la base pour un usage pour ceux n'ayant pas de domotique    
 
-<img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c74c5e4c-1378-43e0-a46b-b766842ff591" />  
+<img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c74c5e4c-1378-43e0-a46b-b766842ff591" /><br>   
 
 C’est un écran type JC2432W328 type capacitif sur I2C donné pour un touch CST816S mais plutôt CST820
 donc utilisation panel : ST7789 et touch CST819S sur LovyangGFX  
 
-<img width="378" height="383" alt="image" src="https://github.com/user-attachments/assets/b18c3798-eca2-48e7-952c-e9b3c7acc8b9" />  
+<img width="378" height="383" alt="image" src="https://github.com/user-attachments/assets/b18c3798-eca2-48e7-952c-e9b3c7acc8b9" /><br>   
 
 Modèle ESP32-2432S028 résistif (plusieurs modèles existe et ce ressemble, il y en a qui sont en version R mais non spécifier)  
 
@@ -25,16 +25,16 @@ Connecter l’écran sur le PC avec un câble de bonne qualité
 
 Une page web s’ouvre de ce type   
 
-<img width="586" height="251" alt="image" src="https://github.com/user-attachments/assets/1f42d5de-367c-45b1-a324-696bb76a312d" />  
+<img width="586" height="251" alt="image" src="https://github.com/user-attachments/assets/1f42d5de-367c-45b1-a324-696bb76a312d" /><br>   
 
 Ensuite cliquer sur le bouton Connect , une fenêtre s’ouvre et cliquer sur le port indiquer dans la fenêtre   
 
-<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" />   
+<img width="284" height="62" alt="image" src="https://github.com/user-attachments/assets/23f95a82-e137-4799-a008-e20bcd4ac6a1" /><br>    
 
 
 Ensuite un clic sur connecté et une fenêtre s’ouvre pour pouvoir télécharger le firmware  
 
-<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" />   
+<img width="411" height="277" alt="image" src="https://github.com/user-attachments/assets/cc3b74d7-8eef-4ed3-ab11-0f90ecdb28f3" /><br>    
 
 
 Attention il faut tenir appuyer le bouton Boot qui ce trouve derrière l’écran avant de cliquer sur  
@@ -42,7 +42,7 @@ Attention il faut tenir appuyer le bouton Boot qui ce trouve derrière l’écra
 
 une fois le téléchargement fini, une fenêtre s’ouvre pour avertir de la fin de l’Upload  
 
-<img width="345" height="266" alt="image" src="https://github.com/user-attachments/assets/31d04a0f-ec71-427f-b205-03890cc7013c" />  
+<img width="345" height="266" alt="image" src="https://github.com/user-attachments/assets/31d04a0f-ec71-427f-b205-03890cc7013c" /><br>   
 
 Pour écran JC2432W328  
 Si tous c’est bien passer l’écran s’allume avec un message connexion wifi, si l’écran n’affiche pas le premier message, faire un reboot avec le bouton RST  
@@ -56,7 +56,7 @@ Une fois l’ESP connecter au wifi, sur l’écran de démarrage l’adresse IP 
 Pour l’ESP32-2432S028 l’IP sera inscrite dans le log de la page de téléchargement dans
 Log & Console   
 
-<img width="357" height="201" alt="image" src="https://github.com/user-attachments/assets/9b44e934-22ca-469f-a8e6-633ccc9e00a2" />  
+<img width="357" height="201" alt="image" src="https://github.com/user-attachments/assets/9b44e934-22ca-469f-a8e6-633ccc9e00a2" /><br>   
 
 
 Ce connecter depuis le navigateur avec l’adresse IP afficher sur l’écran.   
@@ -69,7 +69,7 @@ Et l’écran sera rebooter pour modifier les para de l’écran
 
 Rotation de l’écran 
 
-<img width="638" height="123" alt="image" src="https://github.com/user-attachments/assets/286ebac3-5075-4415-af8f-a8b1cd4ba4d4" />    
+<img width="638" height="123" alt="image" src="https://github.com/user-attachments/assets/286ebac3-5075-4415-af8f-a8b1cd4ba4d4" /><br>     
 
 Pour ESP32-2432S028  à la première mise en service, le calibrage de l’écran est demander, tant que la calibration ne sera pas faite l’écran restera noir.
 
@@ -88,13 +88,13 @@ Un lien pour la documentation depuis la page web
 # Il est possible d'utiliser l'afficheur en mode déporté pour être installer sur un tableau ou autre  
 
 
-<img width="647" height="264" alt="image" src="https://github.com/user-attachments/assets/6823570a-4d4d-459e-80c8-5de7b3afdbb7" />   
+<img width="647" height="264" alt="image" src="https://github.com/user-attachments/assets/6823570a-4d4d-459e-80c8-5de7b3afdbb7" /><br>    
 
 Choix du routeur à afficher , la température si une sonde est présente   
 
 * possibilité d'utilser un PZEM connecter sur l'afficheur et activable depuis la page Option
 
-<img width="385" height="308" alt="image" src="https://github.com/user-attachments/assets/6ae2929c-7e9d-4fb6-9a1f-1137288a85b4" />  
+<img width="385" height="308" alt="image" src="https://github.com/user-attachments/assets/6ae2929c-7e9d-4fb6-9a1f-1137288a85b4" /><br>   
 
 Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge  
 
@@ -110,11 +110,11 @@ Utilisation : Openweathermap
 Il faut commencer par récupérer la position GPS de vôtre lieu d’habitation, ensuite il faut obtenir une clé API depuis 
 [openweathermap](https://openweathermap.org/api)  
 
-<img width="414" height="321" alt="image" src="https://github.com/user-attachments/assets/63655a0b-0619-41ca-b9fd-009a0676c7e5" />  
+<img width="414" height="321" alt="image" src="https://github.com/user-attachments/assets/63655a0b-0619-41ca-b9fd-009a0676c7e5" /><br>   
 
 et souscrire a l’API One Call API 3,0 (c’est gratuit) ensuite copier la clé pour la rentrer sur la page web de l’Afficheur routeur ainsi que les coordonner GPS et enregistrer , l’ Afficheur va redémarrer pour sauvegarder en dur.
 
-<img width="649" height="455" alt="image" src="https://github.com/user-attachments/assets/c48d2b7e-cdf2-4aca-b94c-4d55ce20e34d" />  
+<img width="649" height="455" alt="image" src="https://github.com/user-attachments/assets/c48d2b7e-cdf2-4aca-b94c-4d55ce20e34d" /><br>   
 
 **2e Mode utilisation de Open-météo → météofrance-api**
 
@@ -132,7 +132,7 @@ de serveur domotique type HA, Jeedom de pouvoir récupérer les infos du routeur
 
 Formulaire de l’Afficheur routeur :
 
-<img width="650" height="506" alt="image" src="https://github.com/user-attachments/assets/fa1e0708-07df-46ed-93a0-6db232dd3017" />  
+<img width="650" height="506" alt="image" src="https://github.com/user-attachments/assets/fa1e0708-07df-46ed-93a0-6db232dd3017" /><br>   
 
 La case en face de Activer MQTT externe est uniquement pour l’utilisation sur un Broker   
 
@@ -148,7 +148,7 @@ $\color{red}{\textsf{Usage du BROKER EMBARQUÉ SUR L'AFFICHEUR-ROUTEUR}}$
 * Topic PicoMQTT : il faut rentrer le topic choisi sur le routeur F1ATB et le topic sur l’Afficheur
 doit être rempli comme ceci :  Tampon_state attention a ne pas oublier le _state (très important)
 
-<img width="984" height="343" alt="image" src="https://github.com/user-attachments/assets/44327772-4793-4c86-8309-6dd794247f08" />   
+<img width="984" height="343" alt="image" src="https://github.com/user-attachments/assets/44327772-4793-4c86-8309-6dd794247f08" /><br>    
 
 
 Dans Adresse IP Host rentrer l’adresse IP de l’afficheur   
@@ -156,16 +156,16 @@ Comment doit être inscrit le topic sur l’afficheur
 
 <img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/64030f87-1a30-4af4-be9a-ca63ffe4eb6d" />    
 
-$\color{red}{\textsf{Usage du Broker distant (domotique)}}$  
+$\color{red}{\textsf{Usage du Broker distant (domotique)}}$ <br> 
 
 * Topic extenre subscribe : doit être rempli comme ceci : Tampon/#
 * Topic externe exact : doit être rempli comme ceci : Tampon/Tampon_state
   
-<img width="995" height="346" alt="image" src="https://github.com/user-attachments/assets/3f7706b9-9721-4604-b5f5-1ad7faf88a4e" />
+<img width="995" height="346" alt="image" src="https://github.com/user-attachments/assets/3f7706b9-9721-4604-b5f5-1ad7faf88a4e" /><br>
 
 **Sur l‘afficheur rentrer dans serveur IP du broker distant**    
 
-<img width="641" height="83" alt="image" src="https://github.com/user-attachments/assets/a656f808-dfc0-4dd7-b0c1-240803987f6e" />  
+<img width="641" height="83" alt="image" src="https://github.com/user-attachments/assets/a656f808-dfc0-4dd7-b0c1-240803987f6e" /><br>  
 
 **Possibilité de recevoir les infos d’un routeur F1ATB esclave.**  
 Il suffit de cocher la case Activer Routeur n°2 et remplir le formulaire des topics en fonction si broker de l’afficheur ou broker distant mais différent du routeur maître.  
@@ -174,10 +174,10 @@ $\color{red}{\textsf{************    Pour faire simple  ************}}$
 
 **Mqtt de l’afficheur :**    
 
-<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />    
+<img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" /><br>     
 
 
-<img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" /> <br>   
+<img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" /><br>   
 
 
 
@@ -197,7 +197,7 @@ et du haut vers le bas pour arrêter le forçage
 
 Depuis la domotique pour lancer une marche forcée de 30 min  
 
-<img width="646" height="321" alt="image" src="https://github.com/user-attachments/assets/3c3a0dee-ea41-4027-8aeb-3277a7487ae7" />  
+<img width="646" height="321" alt="image" src="https://github.com/user-attachments/assets/3c3a0dee-ea41-4027-8aeb-3277a7487ae7" /><br>   
 
 
 Si utilisation d’un SSR sur routeur maître cocher la case SSR routeur maître  
@@ -211,11 +211,11 @@ JSY /Shelly EM remonte le tore 2 du JSY ou le canal 1 du shelly EM  en ligne 4
 
 ## Page PARAMETRES  
 
-<img width="646" height="74" alt="image" src="https://github.com/user-attachments/assets/e29fc8ed-ecc4-4528-b990-380ad0ecca30" />  
+<img width="646" height="74" alt="image" src="https://github.com/user-attachments/assets/e29fc8ed-ecc4-4528-b990-380ad0ecca30" /><br>   
 
 Il est possible de remonter sur l’afficheur 3 sondes de température max du routeur F1ATB et de la renommer avec un maximum de 11 caractères.  
 
-<img width="647" height="518" alt="image" src="https://github.com/user-attachments/assets/52d0a713-0778-4a6e-9dd2-fa3d954df3c4" />  
+<img width="647" height="518" alt="image" src="https://github.com/user-attachments/assets/52d0a713-0778-4a6e-9dd2-fa3d954df3c4" /><br>   
 
 Température 1 canal 0 routeur maître  
 Température 2 canal 1 routeur maître  
@@ -257,7 +257,7 @@ Température 6 canal 1 routeur esclave 2
 Permet de renommer les 4 lignes de l’écran.  
 nombre de caractère par ligne :  
 
-<img width="652" height="331" alt="image" src="https://github.com/user-attachments/assets/505f465a-d12a-4c44-9316-6b65e9dfa2b2" />  
+<img width="652" height="331" alt="image" src="https://github.com/user-attachments/assets/505f465a-d12a-4c44-9316-6b65e9dfa2b2" /><br>   
 
 
 1er ligne : 14 caractères  
