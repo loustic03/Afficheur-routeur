@@ -177,7 +177,9 @@ $\color{red}{\textsf{************    Pour faire simple  ************}}$
 <img width="634" height="49" alt="image" src="https://github.com/user-attachments/assets/2bebba4a-8c6d-45d9-8288-d18a1ad947f0" />    
 
 
-<img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" />  
+<img width="854" height="37" alt="image" src="https://github.com/user-attachments/assets/5a7c1d21-11e4-4fca-84ec-fc61c53476ef" />   
+
+
 
 ** Mqtt externe (broker distant ou HA)**  
 
