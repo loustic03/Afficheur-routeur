@@ -176,7 +176,7 @@ Version V3.09
 - Ajout d'un téléchargement de la confiration de l'écran en fichier texte
 - Préparation dans le code pour l'intégration d'un JSY 194 T
   
-## 4.0 -2026-04-06  
+## 4.0 - 2026-04-06  
 Version V4.00  
 - Amélioration de l'affichage après changement de page si utilisation de la batterie
 - Correction bug pour l'extinction pour écran ESP32-2432S028R avec l'usage du capteur PIR
@@ -185,7 +185,13 @@ Version V4.00
 - Possibilité de télécharger en fichier texte l'énergie du PZEM
 - Ajout d'un bouton README qui renvoi sur le github depuis la page web accueil
  
-
+## 4.0 - 2026-04-20  
+Version V4.01  
+- Possibilité d'inverser la ligne d'affichage 2 & 4, depuis la page paramètres champ Labels d'affichage écran (demande d'un utilisateur)
+Attention au nombre de caractére de la ligne 4 si inverser en ligne 2
+- Ajout de ne pas afficher la tension en décochant la case Afficher tension depuis la page paramètres → Labels d'affichage écran
+- Prise en charge de la lecture de la 2e pince pour shelly EM pro 50 , fonction activable depuis la page paramètres dans le champ Gestion afficheur
+- Amélioration pour le téléchargement du firmware depuis l'afficheur (problème erreur réseau près téléchargement)
 
 
  
