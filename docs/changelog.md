@@ -191,7 +191,7 @@ Version V4.01
 Attention au nombre de caractére de la ligne 4 si inverser en ligne 2
 - Ajout de ne pas afficher la tension en décochant la case Afficher tension depuis la page paramètres → Labels d'affichage écran
 - Prise en charge de la lecture de la 2e pince pour shelly EM pro 50 , fonction activable depuis la page paramètres dans le champ Gestion afficheur
-- Amélioration pour le téléchargement du firmware depuis l'afficheur (problème erreur réseau près téléchargement)
+- Amélioration pour le téléchargement du firmware depuis l'afficheur (problème erreur réseau après téléchargement)
 
 
  
