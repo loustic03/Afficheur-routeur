@@ -193,7 +193,12 @@ Attention au nombre de caractére de la ligne 4 si inverser en ligne 2
 - Prise en charge de la lecture de la 2e pince pour shelly EM pro 50 , fonction activable depuis la page paramètres dans le champ Gestion afficheur
 - Amélioration pour le téléchargement du firmware depuis l'afficheur (problème erreur réseau après téléchargement)
 
-
+## 4.0 - 2026-05-25  
+Version V4.02  
+- Correction bug pour l'afficheur principal sur le bargraphe ballon eau chaude en fonction de la sonde température déclaré dans BARGRAPHE BALLON
+- Ajout totale routé de la journée sur l'écran déporté si un PZEM est utiliser
+- Ajout en page 2 de l'afficheur la puissance totale routé sur les 7 derniers jours
+  
  
 
 
