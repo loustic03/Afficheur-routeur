@@ -285,8 +285,11 @@ Tempo (ms) permet d’augmenter le temps de demande d’info sur OpenDtu
   
 # Vigilance Météo  
 
-Il suffit de renseigner le département et enregistrer.  
-La vigilance sera afficher dans la zone de la météo et informe juste de l’état vigilance du département.  
+Il faut une clé API qui est gratuite en faisant la demande depuis : https://www.vigiscript.fr/webmaster.php  
+Une fois la clé reçu par mail, il suffi de la rentrer dans le champ prévu sur la page web de l'afficheur  
+Renseigner le département et enregistrer.  
+La vigilance sera afficher dans la zone de la météo et informe juste de l’état vigilance du département.   
+L'info vigilance est J0 → J1
 
 Cette info provient de : [Vigiscript]( https://www.vigiscript.fr)  
 
