@@ -198,6 +198,14 @@ Version V4.02
 - Correction bug pour l'afficheur principal sur le bargraphe ballon eau chaude en fonction de la sonde température déclaré dans BARGRAPHE BALLON
 - Ajout totale routé de la journée sur l'écran déporté si un PZEM est utiliser
 - Ajout en page 2 de l'afficheur la puissance totale routé sur les 7 derniers jours
+
+## 4.0 - 2026-08-23  
+Version V4.03  
+- Modification de la méthode de récupération pour Vigiscript → necessite de faire une demande de clé API depuis:
+https://www.vigiscript.fr/webmaster.php
+Modification de la page web pour rentrer la clé API
+
+
   
  
 
