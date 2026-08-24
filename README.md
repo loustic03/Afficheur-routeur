@@ -291,7 +291,9 @@ Renseigner le département et enregistrer.
 La vigilance sera afficher dans la zone de la météo et informe juste de l’état vigilance du département.   
 L'info vigilance est J0 → J1
 
-Cette info provient de : [Vigiscript]( https://www.vigiscript.fr)  
+Cette info provient de : [Vigiscript]( https://www.vigiscript.fr)    
+Un lien pour soutenir le projet de Benjamin Vigiscript : https://www.paypal.com/donate?token=gEN68IXfSFSa0qdRrDhAaVr5OkChkERaHy-KE2A27bb9ONEEt6lzjR-j9iqh7RAnaZJ2WIhvHhhe6xyL
+
 
 # Programme journalier écran  
 
