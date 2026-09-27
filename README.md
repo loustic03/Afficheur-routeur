@@ -272,6 +272,15 @@ Ouverture Triac ou SSR
 4e ligne : 17 caractères  
 Puissance routée 
 
+# Réseau [IP]  
+Permet de rentrer une IP fixe pour l'afficheur  
+Activer IP fixe en cochant la case prévu pour.  
+Rentrer l'adresse IP pour l'afficheur (mettre celle qui a été mis à la première connexion.  
+Passerelle → c'est l'adresse de la box internet.  
+Masque de sous réseau, il est rentrer par défaut.  
+DNS : l'IP de la box est mise par défaut, si il y a un souci remplacer par 8.8.8.8  
+
+<img width="646" height="410" alt="image" src="https://github.com/user-attachments/assets/140be3fc-77ce-4a42-accd-4da6b110437d" />
 
 # OpenDtu  
 
