@@ -207,13 +207,14 @@ Modification de la page web pour rentrer la clé API
 
 ## 4.0 - 26-08-2026  
 Version V4.03  
-Problème de mise à jour sur la vigilance actuel  
+- Problème de mise à jour sur la vigilance actuel  
 Correction récupération du J0  
 Retélécharger la V4.03  
 
 ## 4.0 - 27-09-2026  
 Version V4.04  
-Ajout d'une fonction pour fixer l'IP de l'afficheur depuis la page Paramètres     
+- Ajout d'une fonction pour fixer l'IP de l'afficheur depuis la page Paramètres
+   
 
   
  
