@@ -309,7 +309,8 @@ Un lien pour soutenir le projet de Benjamin Vigiscript : https://www.paypal.com/
 Il est activable ou non si pas de besoin  
 Permet de pouvoir exemple sur Prog1 allumer l’écran à partir de 5h30 jusqu’à 9h00   
 en prog2 de 9h00 a 11h30 afficher l’horloge et idem pour les autres prog3 et 4  
-Si dans ex : prog3  rien n’est rentrer l’afficheur tiendra compte du prog2  
+Si dans ex : prog3  rien n’est rentrer l’afficheur tiendra compte du prog2    
+Il y a au totale 6 modes d'affichage utilsable
 
 <img width="647" height="859" alt="image" src="https://github.com/user-attachments/assets/96643415-f7a9-46c4-83b5-906cb30d7eb4" /> 
 
@@ -384,6 +385,11 @@ Exemple d'envoi depuis JEEDOM pour ma part
 * La production photovoltaïque, idem pour les infos à rentrer en MQTT depuis la domotique   
 
   <img width="643" height="214" alt="image" src="https://github.com/user-attachments/assets/52a80b38-1d55-4660-abdf-0b0c2b750e3e" />
+
+* Activation pour la page écran flux Orkelys (uniquement sur utilisation d'Orkelys)
+
+  <img width="635" height="230" alt="image" src="https://github.com/user-attachments/assets/2d8b6586-0c21-4b0b-b87e-bee6b91cd001" />
+
   
 * Possibilité de remonter les info d'une batterie toujours en MQTT depuis la domotique et une fois activer affiche un petit bargrahe sur l'écran
 
