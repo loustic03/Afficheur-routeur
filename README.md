@@ -98,6 +98,18 @@ Choix du routeur à afficher , la température si une sonde est présente
 
 Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour de la jauge  
 
+
+** Nouveau mode supplémentaire déporté dédié batterie (uniquement pour utilisation avec Orkelys)
+
+<img width="626" height="412" alt="image" src="https://github.com/user-attachments/assets/a5ddc4c7-2363-46be-a4d3-17d8629c934e" />  
+
+affichage sur l'écran  
+
+<img width="330" height="262" alt="image" src="https://github.com/user-attachments/assets/e81d956c-828c-4232-87e6-5b6e0dcd7982" />
+
+
+
+
 <!-- PAGE METEO      -->
 # Météo
 
