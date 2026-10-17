@@ -105,7 +105,8 @@ Lorsqu'il n'y a pas de routage la jauge créer un petit halo de mouvement autour
 
 affichage sur l'écran  
 
-<img width="330" height="262" alt="image" src="https://github.com/user-attachments/assets/e81d956c-828c-4232-87e6-5b6e0dcd7982" />
+<img width="506" height="383" alt="image" src="https://github.com/user-attachments/assets/786d0a69-f380-4068-9523-cf03ea7782d4" />
+
 
 
 
