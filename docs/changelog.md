@@ -222,11 +222,13 @@ Version V4.05  (cette version est reservée pour fonctionner avec Orkelys)
 Logo de ma nouveau développement Orkelys 
 
 
-<img width="211" height="219" alt="image" src="https://github.com/user-attachments/assets/0b245dd0-b0b0-4368-85b4-85d3ab503db0" />
+<img width="222" height="215" alt="image" src="https://github.com/user-attachments/assets/720f9a02-26aa-4992-aca8-85698cc6947d" />
+
 
 Nouvelle page sur l'afficheur
   
-<img width="423" height="332" alt="image" src="https://github.com/user-attachments/assets/2ad324c6-d97f-4244-b6e5-6b6b695a0556" />  
+<img width="1293" height="973" alt="apercu_flux_orkel-iot" src="https://github.com/user-attachments/assets/7a4abb3e-b049-4afb-8b3e-e5e46514cea9" />
+ 
 
 ## 4.0 - 13-10-2026  
 Version V4.06 (cette version est reservée pour fonctionner avec Orkelys)
@@ -234,7 +236,8 @@ Version V4.06 (cette version est reservée pour fonctionner avec Orkelys)
 - Ajout d'un nouveau mode déporté dédié pour la batterie
 - Ce nouveau mode n'est fonctionnel uniquement avec une batterie Zendure (test validé) et isypower (encore non tester) et l'utilisation d'Orkelys
   
-<img width="340" height="270" alt="image" src="https://github.com/user-attachments/assets/d22a8b74-350f-48a1-8b67-43bc1a472300" />  
+<img width="1293" height="973" alt="apercu_ecran_deporte_orkel-iot" src="https://github.com/user-attachments/assets/1ca8639a-5946-4d87-84dd-d98415302698" />
+
 
 Modification du programmateur, tout les modes programmer permettre uniquement l'affichage de ce nouveau mode déporté au heures choisi et le mode OFF
 permet d'éteindre l'afficheur
