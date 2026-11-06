@@ -409,6 +409,13 @@ Exemple d'envoi depuis JEEDOM pour ma part
   
   <img width="643" height="329" alt="image" src="https://github.com/user-attachments/assets/4615823c-2510-49e6-8cab-bcfde6204625" />
 
+* Nouveau champs pour les infos batterie avec la sources Orkel-ioT et toujours la possibilité de remonter par la domotique
+  
+
+  <img width="641" height="328" alt="image" src="https://github.com/user-attachments/assets/7a7de509-9bbd-4a39-b60d-15f6d6933375" />
+  
+
+
 * Activer la batterie est ce qui permet d'afficher la batterie
 * Activer la charge 
 * Topic Batterie est l'info du % de charge
