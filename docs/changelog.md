@@ -240,7 +240,13 @@ Version V4.06 (cette version est reservée pour fonctionner avec Orkelys)
 
 
 Modification du programmateur, tout les modes programmer permettre uniquement l'affichage de ce nouveau mode déporté au heures choisi et le mode OFF
-permet d'éteindre l'afficheur
+permet d'éteindre l'afficheur   
+
+## 4.0 - 06-11-2026  
+Version V4.09  
+
+- Ajout d'une fonction pour recevoir les infos par MQTT d'Orkel-ioT pour l'affichage de la batterie
+- Modification et correction bug du bargraphe batterie
 
   
  
