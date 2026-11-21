@@ -248,9 +248,10 @@ Version V4.09
 - Ajout d'une fonction pour recevoir les infos par MQTT d'Orkel-ioT pour l'affichage de la batterie
 - Modification et correction bug du bargraphe batterie
 
-  
- 
+## 4.0 - 21-11-2026  
+Version V4.10  
 
-
-
-
+- Compatibilité avec le nouveau routeur F1ATB RMS-S3 (firmware V1.00 et suivants) : une case « RMS-S3 » par routeur (maître, esclave 1, esclave 2), on peut mélanger RMS-S3 et F1ATB classique
+- Lecture des puissances, de l'état des actions, des températures, LTARF et Tempo au format du RMS-S3
+- Commandes (forçage, mode) au format du RMS-S3 (dans le RMS-S3, cocher « Souscrire au forçage des Actions via le serveur MQTT »)
+- Le RMS-S3 ne publie pas la tension par MQTT : elle n'est pas mise à jour pour ce routeur
