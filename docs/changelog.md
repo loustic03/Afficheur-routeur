@@ -284,3 +284,10 @@ Version V4.11  (béta)
 - Après un changement de topic, redémarrer l'afficheur
 
 - Nouvelle documentation complète (même lien que le bouton « Documentation ») en préparation
+  
+## 4.0 - 22-11-2026  
+Version V4.12  (béta)
+- Page web : « Aide MQTT » détaillée : F1ATB classique sans domotique, RMS-S3 (réglages dans le routeur et dans l'afficheur,
+les 3 topics, la tension par Shelly EM), domotique (broker distant), les pièges (_state, majuscules, espaces, préfixe,
+redémarrage) et comment vérifier (journal, MQTT Explorer). « Info Forçage » : souscription au forçage, nom de l'action
+du RMS-S3. Les fenêtres d'aide longues défilent.  
