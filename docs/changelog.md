@@ -249,7 +249,7 @@ Version V4.09
 - Modification et correction bug du bargraphe batterie
 
 ## 4.0 - 21-11-2026  
-Version V4.10  
+Version V4.10  (béta)
 
 - Compatibilité avec le nouveau routeur F1ATB RMS-S3 (firmware V1.00 et suivants) : une case « RMS-S3 » par routeur (maître, esclave 1, esclave 2), on peut mélanger RMS-S3 et F1ATB classique
 - Lecture des puissances, de l'état des actions, des températures, LTARF et Tempo au format du RMS-S3
@@ -257,11 +257,30 @@ Version V4.10
 - Le RMS-S3 ne publie pas la tension par MQTT : elle n'est pas mise à jour pour ce routeur
 
 ## 4.0 - 22-11-2026  
-Version V4.11  
+Version V4.11  (béta)
 
 - Météo : le journal donne enfin le vrai résultat (ville, température, humidité) ou la raison de l'échec : clé API non renseignée, clé refusée (code 401, une clé neuve peut mettre jusqu'à 2 h à être activée), lieu introuvable, trop de demandes, serveur injoignable. Avant, la ligne était écrite avant de lire la réponse (« null 0.00°C 0% null »)
 - Météo : une réponse en erreur n'efface plus la météo affichée ; Open-Meteo écrit aussi son résultat dans le journal
 - RMS-S3 : la 2e mesure est lue quel que soit son numéro (« s10 » constaté sur un vrai RMS-S3 au lieu de « s01 », elle n'était pas affichée)
 - RMS-S3 : le mode du triac est lu sans tenir compte des majuscules (le RMS-S3 envoie « MULTI_SINUS »)
-- Nouveau : Paramètres → « Tension (Shelly EM) » : l'afficheur lit lui-même la tension sur le Shelly EM de la mesure, toutes les 30 s (le RMS-S3 ne publie pas la tension). Shelly EM 1re génération, Gen3, Gen4 et Pro EM, modèle trouvé tout seul en « Automatique ». Elle remplace la tension du routeur maître ; journal : tension lue ou raison de l'échec
-- Nouvelle documentation complète (même lien que le bouton « Documentation »)
+- Nouveau : Paramètres → « Tension (Shelly EM) » : l'afficheur lit lui-même la tension sur le Shelly EM de la mesure du F1ATB ou un autre Shelly EM, toutes les 30 s (le RMS-S3 ne publie pas la tension). Shelly EM 1re génération, Gen3, Gen4 et Pro EM, modèle trouvé tout seul en « Automatique ». Elle remplace la tension du routeur maître ; journal : tension lue ou raison de l'échec
+
+**Réglage des topics avec un RMS-S3** (exemple : routeur nommé « toto », action « SSR xxx », broker intégré de l'afficheur)
+
+| Où | Champ | Valeur |
+|---|---|---|
+| RMS-S3 | MQTT Device Name / Nom routeur | `toto` (seulement le nom, sans « _state ») |
+| RMS-S3 | Serveur MQTT | adresse IP de l'afficheur, port 1883 |
+| RMS-S3 | Souscrire au forçage des Actions via le serveur MQTT | coché |
+| Afficheur | Topic PicoMQTT | `toto_state` |
+| Afficheur | Routeur RMS-S3 (V1.00, bêta) | coché |
+| Afficheur | Préfixe topic (Device Name) | `toto` |
+| Afficheur | Nom du Triac | `SSR xxx` (nom exact de l'action dans le RMS-S3) |
+| Afficheur | SSR routeur maître | coché si l'action est un SSR |
+
+- Le RMS-S3 publie lui-même trois topics : `toto_state` (températures, tarif), `toto_Sources_state` (puissances) et `toto_Actions_state` (triac / SSR). L'afficheur trouve les deux derniers tout seul à partir de `toto_state`
+- Les espaces sont permis dans le nom (ex. `Routeur toto_state`), mais il faut écrire exactement la même chose des deux côtés, sans espace en trop à la fin
+- Si le RMS-S3 a un préfixe de publication, il faut l'ajouter devant : `prefixe/toto_state` (MQTT Explorer montre le topic exact)
+- Après un changement de topic, redémarrer l'afficheur
+
+- Nouvelle documentation complète (même lien que le bouton « Documentation ») en préparation
