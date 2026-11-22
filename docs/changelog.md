@@ -255,3 +255,13 @@ Version V4.10
 - Lecture des puissances, de l'état des actions, des températures, LTARF et Tempo au format du RMS-S3
 - Commandes (forçage, mode) au format du RMS-S3 (dans le RMS-S3, cocher « Souscrire au forçage des Actions via le serveur MQTT »)
 - Le RMS-S3 ne publie pas la tension par MQTT : elle n'est pas mise à jour pour ce routeur
+
+## 4.0 - 22-11-2026  
+Version V4.11  
+
+- Météo : le journal donne enfin le vrai résultat (ville, température, humidité) ou la raison de l'échec : clé API non renseignée, clé refusée (code 401, une clé neuve peut mettre jusqu'à 2 h à être activée), lieu introuvable, trop de demandes, serveur injoignable. Avant, la ligne était écrite avant de lire la réponse (« null 0.00°C 0% null »)
+- Météo : une réponse en erreur n'efface plus la météo affichée ; Open-Meteo écrit aussi son résultat dans le journal
+- RMS-S3 : la 2e mesure est lue quel que soit son numéro (« s10 » constaté sur un vrai RMS-S3 au lieu de « s01 », elle n'était pas affichée)
+- RMS-S3 : le mode du triac est lu sans tenir compte des majuscules (le RMS-S3 envoie « MULTI_SINUS »)
+- Nouveau : Paramètres → « Tension (Shelly EM) » : l'afficheur lit lui-même la tension sur le Shelly EM de la mesure, toutes les 30 s (le RMS-S3 ne publie pas la tension). Shelly EM 1re génération, Gen3, Gen4 et Pro EM, modèle trouvé tout seul en « Automatique ». Elle remplace la tension du routeur maître ; journal : tension lue ou raison de l'échec
+- Nouvelle documentation complète (même lien que le bouton « Documentation »)
