@@ -290,4 +290,29 @@ Version V4.12  (béta)
 - Page web : « Aide MQTT » détaillée : F1ATB classique sans domotique, RMS-S3 (réglages dans le routeur et dans l'afficheur,
 les 3 topics, la tension par Shelly EM), domotique (broker distant), les pièges (_state, majuscules, espaces, préfixe,
 redémarrage) et comment vérifier (journal, MQTT Explorer). « Info Forçage » : souscription au forçage, nom de l'action
-du RMS-S3. Les fenêtres d'aide longues défilent.  
+du RMS-S3. Les fenêtres d'aide longues défilent.
+
+## 4.0 - 25-11-2026  
+Version V4.13 
+
+- Version béta 
+- Nouveau : lecture de **Solar Assistant** (Raspberry relié à l'onduleur : Deye, Victron, Growatt…) par son API locale, sans MQTT : le F1ATB et l'afficheur gardent leur broker PicoMQTT. Réglage dans Options → « Solar Assistant (API locale) » : IP du Raspberry, mot de passe de Solar Assistant, lecture toutes les 10 s par défaut
+- Page **Flux** avec Solar Assistant : solaire et batterie de Solar Assistant, réseau et ballon (température et routage) du F1ATB maître, maison calculée, avec les points animés, comme pour Orkel-ioT
+- **Batterie** : nouvelle source « Solar Assistant » (%, charge / décharge et puissance), sans aucun topic à saisir
+- **Production solaire** depuis Solar Assistant : accueil, Energie Live, Dash et Telegram
+- Journal : valeurs lues et topics trouvés à la 1re lecture, ou raison de l'échec (mot de passe refusé, Raspberry injoignable…)
+- Correction : une production MQTT envoyée en nombre seul (« 1234 ») est maintenant lue
+
+**Réglage avec Solar Assistant**
+
+| Où | Champ | Valeur |
+|---|---|---|
+| Afficheur → Options → Solar Assistant | Lire Solar Assistant | coché |
+| | IP du Raspberry | adresse IP du Raspberry (ex. `192.168.1.42`) |
+| | Mot de passe | celui de la page web de Solar Assistant (identifiant `admin`) |
+| | Page Flux avec Solar Assistant | coché pour la page Flux |
+| | Production solaire de Solar Assistant | coché pour la ligne production |
+| Afficheur → Options → Batterie | Source des infos | « Solar Assistant (API locale) » |
+
+- Valeurs lues dans Solar Assistant : `pv_power`, `battery_state_of_charge` et `battery_power` (+ charge / - décharge), dans `total`, sinon dans `inverter_1` puis `battery_1`
+- Le réseau reste celui mesuré par le F1ATB ; la maison est calculée (solaire + réseau - batterie)
